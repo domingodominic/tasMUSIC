@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/tasMUSIC/static/css/main.02c7603a.css",
-    "main.js": "/tasMUSIC/static/js/main.523012c7.js",
+    "main.css": "/tasMUSIC/static/css/main.af3b8d92.css",
+    "main.js": "/tasMUSIC/static/js/main.56fd2308.js",
     "static/js/787.d525ff22.chunk.js": "/tasMUSIC/static/js/787.d525ff22.chunk.js",
     "static/media/betty.mp3": "/tasMUSIC/static/media/betty.e7eda9eb624d333ff070.mp3",
     "static/media/epiphany.mp3": "/tasMUSIC/static/media/epiphany.c2d153f8d3cac5318b50.mp3",
@@ -9,7 +9,9 @@
     "static/media/august.mp3": "/tasMUSIC/static/media/august.aa7f7e731989c3b343cc.mp3",
     "static/media/invisiblestring.mp3": "/tasMUSIC/static/media/invisiblestring.50bdfd89d19c3260e19f.mp3",
     "static/media/mytearsricochet.mp3": "/tasMUSIC/static/media/mytearsricochet.1abbe58b13d81e9b8be7.mp3",
+    "static/media/mine.mp3": "/tasMUSIC/static/media/mine.7fd7bd5970fbc4be7342.mp3",
     "static/media/cardigan.mp3": "/tasMUSIC/static/media/cardigan.b3930277ca07c0c88cc9.mp3",
+    "static/media/fearless.mp3": "/tasMUSIC/static/media/fearless.40c6f66bdfda6ccee863.mp3",
     "static/media/madwoman.mp3": "/tasMUSIC/static/media/madwoman.706d131dd6fe4a982343.mp3",
     "static/media/ThelastGreat.mp3": "/tasMUSIC/static/media/ThelastGreat.29960c44d75b8e44ea65.mp3",
     "static/media/mirrorball.mp3": "/tasMUSIC/static/media/mirrorball.11027fc9c0ce41643581.mp3",
@@ -19,14 +21,18 @@
     "static/media/seven.mp3": "/tasMUSIC/static/media/seven.892a07f32c2cab99a60f.mp3",
     "static/media/thisismetrying.mp3": "/tasMUSIC/static/media/thisismetrying.acdf00a8e32e5da9a50e.mp3",
     "static/media/illicit.mp3": "/tasMUSIC/static/media/illicit.f15407acdd342e2df16e.mp3",
+    "static/media/forgotexisted.mp3": "/tasMUSIC/static/media/forgotexisted.f1cf586659fc754f4664.mp3",
     "static/media/folklore.jpg": "/tasMUSIC/static/media/folklore.a19dbcab90e1ffe837b8.jpg",
+    "static/media/lover--album.jpg": "/tasMUSIC/static/media/lover--album.e5865e1aaaf1360a3088.jpg",
+    "static/media/speaknow-alb.jpg": "/tasMUSIC/static/media/speaknow-alb.4a6ba783db0597f2a391.jpg",
+    "static/media/fearless-alb.jpg": "/tasMUSIC/static/media/fearless-alb.5cd3ee89e804e350e101.jpg",
     "index.html": "/tasMUSIC/index.html",
-    "main.02c7603a.css.map": "/tasMUSIC/static/css/main.02c7603a.css.map",
-    "main.523012c7.js.map": "/tasMUSIC/static/js/main.523012c7.js.map",
+    "main.af3b8d92.css.map": "/tasMUSIC/static/css/main.af3b8d92.css.map",
+    "main.56fd2308.js.map": "/tasMUSIC/static/js/main.56fd2308.js.map",
     "787.d525ff22.chunk.js.map": "/tasMUSIC/static/js/787.d525ff22.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.02c7603a.css",
-    "static/js/main.523012c7.js"
+    "static/css/main.af3b8d92.css",
+    "static/js/main.56fd2308.js"
   ]
 }
