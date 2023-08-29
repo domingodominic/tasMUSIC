@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/tasMUSIC/static/css/main.fdab0a51.css",
-    "main.js": "/tasMUSIC/static/js/main.971e853d.js",
+    "main.css": "/tasMUSIC/static/css/main.02c7603a.css",
+    "main.js": "/tasMUSIC/static/js/main.523012c7.js",
     "static/js/787.d525ff22.chunk.js": "/tasMUSIC/static/js/787.d525ff22.chunk.js",
     "static/media/betty.mp3": "/tasMUSIC/static/media/betty.e7eda9eb624d333ff070.mp3",
     "static/media/epiphany.mp3": "/tasMUSIC/static/media/epiphany.c2d153f8d3cac5318b50.mp3",
@@ -21,12 +21,12 @@
     "static/media/illicit.mp3": "/tasMUSIC/static/media/illicit.f15407acdd342e2df16e.mp3",
     "static/media/folklore.jpg": "/tasMUSIC/static/media/folklore.a19dbcab90e1ffe837b8.jpg",
     "index.html": "/tasMUSIC/index.html",
-    "main.fdab0a51.css.map": "/tasMUSIC/static/css/main.fdab0a51.css.map",
-    "main.971e853d.js.map": "/tasMUSIC/static/js/main.971e853d.js.map",
+    "main.02c7603a.css.map": "/tasMUSIC/static/css/main.02c7603a.css.map",
+    "main.523012c7.js.map": "/tasMUSIC/static/js/main.523012c7.js.map",
     "787.d525ff22.chunk.js.map": "/tasMUSIC/static/js/787.d525ff22.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fdab0a51.css",
-    "static/js/main.971e853d.js"
+    "static/css/main.02c7603a.css",
+    "static/js/main.523012c7.js"
   ]
 }
