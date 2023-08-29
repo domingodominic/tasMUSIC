@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,200&display=swap");
+
 .App {
   text-align: center;
 }
@@ -35,4 +37,91 @@
   to {
     transform: rotate(360deg);
   }
+}
+#range::-webkit-slider-thumb {
+  background-color: aqua;
+}
+.App {
+  display: flex;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  background: rgb(72, 72, 72);
+  background: linear-gradient(
+    90deg,
+    rgba(72, 72, 72, 1) 1%,
+    rgba(160, 160, 160, 1) 48%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  box-shadow: inset 0 0 0 100vw rgba(0, 0, 0, 0.4);
+  width: 100vw;
+  height: 100vh;
+}
+.music--container {
+  position: relative;
+  overflow: hidden;
+  width: 500px;
+  height: 70vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.image {
+  height: 250px;
+  width: 300px;
+  border-radius: 30px;
+}
+.artist {
+  color: white;
+  font-weight: bold;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+}
+
+.playAndPause {
+  background: none;
+  border: none;
+}
+.playAndPause i {
+  font-size: 40px;
+  color: white;
+}
+.rewind,
+.forward {
+  background: none;
+  border: none;
+}
+.rewind i,
+.forward i {
+  font-size: 40px;
+  color: white;
+}
+
+.rewind i:active {
+  transform: scaleX(1.1);
+  transition: all 0.5s;
+}
+.buttons {
+  margin-top: 20px;
+}
+.toggle--btn {
+  position: absolute;
+  background: none;
+  border: none;
+  padding: 20px;
+  z-index: 2;
+  top: 0;
+  right: 0;
+}
+.toggle--btn i {
+  font-size: 30px;
+  font-weight: bold;
+}
+.list--music {
+  margin-top: 40px;
+  padding: 0;
+}
+.list--music li {
+  list-style: none;
+  font-size: 10px;
+  font-family: "Poppins", sans-serif;
+  margin-top: 20px;
 }
