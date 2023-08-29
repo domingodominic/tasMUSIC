@@ -15,6 +15,7 @@ code {
 #range {
   height: 4px;
   width: 80%;
+  background-color: rgb(116, 116, 116);
 }
 #range::-webkit-slider-thumb {
   width: 1px;
