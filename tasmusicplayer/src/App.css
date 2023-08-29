@@ -39,7 +39,7 @@
   }
 }
 #range::-webkit-slider-thumb {
-  background-color: rgb(116, 116, 116);
+  background-color: rgb(96, 96, 96);
 }
 .App {
   display: flex;
@@ -61,14 +61,14 @@
   position: relative;
   overflow: hidden;
   width: 500px;
-  height: 70vh;
+  height: 80vh;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .image {
   height: 250px;
   width: 300px;
-  border-radius: 30px;
+  border-radius: 20px;
   transform-origin: right;
   transition: all 0.3s ease-in-out;
 }
@@ -120,6 +120,7 @@
 }
 .list--music {
   margin-top: 40px;
+  overflow: scroll;
   padding: 0;
 }
 .list--music li {
@@ -135,6 +136,7 @@
   border-radius: 2px;
   transition: all 0.5s;
   right: 30% !important;
+  margin-bottom: 10px;
   transform-origin: right;
 }
 .lyrics {

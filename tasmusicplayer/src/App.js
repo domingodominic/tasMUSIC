@@ -17,7 +17,12 @@ import epiphany from "./musics/epiphany.mp3";
 import betty from "./musics/betty.mp3";
 import peace from "./musics/peace.mp3";
 import hoax from "./musics/hoax.mp3";
-
+import loverAlbum from "./img/lover--album.jpg";
+import forgotExist from "./musics/forgotexisted.mp3";
+import fearlessAlb from "./img/fearless-alb.jpg";
+import fearless from "./musics/fearless.mp3";
+import mine from "./musics/mine.mp3";
+import speaknowAlb from "./img/speaknow-alb.jpg";
 function App() {
   const [musicIndex, setMusicIndex] = useState(0);
   const [isPlaying, setIsPlaying] = useState(false);
@@ -25,6 +30,7 @@ function App() {
   const [duration, setDuration] = useState(0);
   const [isToggle, setToggle] = useState(false);
   const [isImgToggle, setImgToggle] = useState(false);
+  const [imgUrl, setImgurl] = useState(folkloreImg);
   function toggle() {
     setToggle(!isToggle);
   }
@@ -1037,6 +1043,7 @@ function App() {
       album: "Folklore",
       artist: "Taylor Swift",
     },
+
     {
       title: "Hoax",
       url: hoax,
@@ -1094,11 +1101,273 @@ function App() {
       album: "Folklore",
       artist: "Taylor Swift",
     },
+    {
+      title: "I forgot that you existed",
+      url: forgotExist,
+      img: loverAlbum,
+      lyrics: `[Verse 1]
+      How many days did I spend thinking
+      'Bout how you did me wrong, wrong, wrong?
+      Lived in the shade you were throwing
+      'Til all of my sunshine was gone, gone, gone
+      And I couldn't get away from ya
+      In my feelings more than Drake, so yeah
+      Your name on my lips, tongue-tied
+      Free rent, living in my mind
+      
+      [Pre-Chorus]
+      But then something happened one magical night
+      
+      [Chorus]
+      I forgot that you existed
+      And I thought that it would kill me,
+       but it didn't
+      And it was so nice
+      So peaceful and quiet
+      I forgot that you existed
+      It isn't love, it isn't hate, 
+      it's just indifference
+      I forgot that you
+      
+      [Verse 2]
+      Got out some popcorn
+      As soon as my rep started going down, 
+      down, down
+      Laughed on the school yard
+      As soon as I tripped up and hit the 
+      ground, ground, ground
+      And I would've stuck around for ya
+      Would've fought the whole town, so yeah
+      Would've been right there, front row
+      Even if nobody came to your show
+      You might also like
+      All Of The Girls You Loved Before
+      Taylor Swift
+      The Archer
+      Taylor Swift
+      I Think He Knows
+      Taylor Swift
+      [Pre-Chorus]
+      But you showed who you are, then one 
+      magical night
+      
+      [Chorus]
+      I forgot that you existed
+      And I thought that it would kill me,
+       but it didn't
+      And it was so nice
+      So peaceful and quiet
+      I forgot that you existed
+      It isn't love, it isn't hate, it's just
+       indifference
+      I forgot that you
+      
+      [Bridge]
+      Sent me a clear message
+      Taught me some hard lessons
+      I just forget what they were
+      It's all just a blur
+      
+      [Chorus]
+      I forgot that you existed
+      And I thought that it would kill me,
+       but it didn't
+      And it was so nice
+      So peaceful and quiet
+      I forgot that you existed
+      I did, I did, I did
+      It isn't hate, it's just indifference
+      It isn't love, it isn't hate, it's
+       just indifference
+      So, yeah`,
+      album: "Lover",
+      artist: "Taylor Swift",
+    },
+    {
+      title: "Fearless",
+      url: fearless,
+      img: fearlessAlb,
+      lyrics: `[Verse 1]
+      There's something 'bout the way
+      The street looks when it's just rained
+      There's a glow off the pavement, you walk 
+      me to the car
+      And you know I wanna ask you to dance
+       right there
+      In the middle of the parking lot, yeah
+      Oh, yeah
+      
+      [Verse 2]
+      We're driving down the road, I wonder
+       if you know
+      I'm trying so hard not to get caught up now
+      But you're just so cool, run your hands 
+      through your hair
+      Absentmindedly making me want you
+      
+      [Chorus]
+      And I don't know how it gets better
+       than this
+      You take my hand and drag me head first,
+       fearless
+      And I don't know why but with you,
+       I'd dance
+      In a storm in my best dress, fearless
+      
+      [Verse 3]
+      So, baby, drive slow 'til we run out 
+      of road In this one horse town,
+       I wanna stay right here
+      In this passenger's seat
+      You put your eyes on me
+      In this moment now, capture it,
+       remember it
+      
+      [Chorus]
+      'Cause I don't know how it gets 
+      better than this
+      You take my hand and drag me head 
+      first, fearless
+      And I don't know why but with you,
+       I'd dance
+      In a storm in my best dress, fearless
+      
+      [Bridge]
+      Well, you stood there with me in
+       the doorway
+      My hands shake, I'm not usually 
+      this way but
+      You pull me in and I'm a little 
+      more brave
+      It's the first kiss, it's flawless,
+       really 
+      something
+      It's fearless
+      Oh, yeah
+      
+      [Chorus]
+      'Cause I don't know how it gets
+       better than this
+      You take my hand and drag me head 
+      first, fearless And I don't know 
+      why but with you,
+       I'd dance In a storm in 
+      fearless 'Cause I don't know how
+       it gets better than this
+      You take my hand and drag me head 
+      first, fearless And I don't know 
+      why but with you, I'd dance
+      In a storm in my best dress, fearless
+      
+      [Outro]
+      Oh, oh
+      Oh, yeah`,
+      album: "Fearless",
+      artist: "Taylor Swift",
+    },
+    {
+      title: "Mine",
+      url: mine,
+      img: speaknowAlb,
+      lyrics: `[Intro]
+      Oh-oh, oh-oh
+      Oh-oh, oh-oh
+      
+      [Verse 1]
+      You were in college working part time
+       waitin' tables
+      Left a small town, never looked back
+      I was a flight risk with a fear of falling
+      Wonderin' why we bother with love if
+       it never lasts
+      
+      [Pre-Chorus]
+      I say, "Can you believe it?"
+      As we're lyin' on the couch
+      The moment I could see it
+      Yes, yes, I can see it now
+      
+      [Chorus]
+      Do you remember, we were sittin' there
+       by the water? You put your arm around
+       me for the first time
+      You made a rebel of a careless man's 
+      careful daughter
+      You are the best thing that's ever
+       been mine
+      
+      [Verse 2]
+      Flash forward and we're takin' on the
+       world together And there's a drawer of
+       my things at your place
+      You learn my secrets and you figure
+       out why I'm guarded
+      You say we'll never make my parents' mistakes
+     
+      [Pre-Chorus]
+      But we got bills to pay
+      We got nothing figured out
+      When it was hard to take
+      Yes, yes, this is what I thought about
+      
+      [Chorus]
+      Do you remember, we were sittin' 
+      there by the water?
+      You put your arm around me for the 
+      first time You made a rebel of a careless
+       man's careful daughter
+      You are the best thing that's ever 
+      been mine Do you remember all the 
+      city lights on the water?
+      You saw me start to believe for
+       the first time You made a rebel of
+       a careless man's careful daughter
+      You are the best thing that's ever been mine
+      
+      [Post-Chorus]
+      Oh-oh, oh-oh
+      
+      [Bridge]
+      And I remember that fight, 2:30AM
+      As everything was slipping right out of 
+      our hands
+      I ran out crying and you followed me
+       out into the street
+      Braced myself for the goodbye
+      'Cause that's all I've ever known
+      Then you took me by surprise
+      You said, "I'll never leave you alone"
+      [Chorus]
+      You said, "I remember how we felt
+       sitting by the water
+      And every time I look at you, it's
+       like the first time
+      I fell in love with a careless man's 
+      careful daughter
+      She is the best thing that's ever been mine"
+      
+      [Post-Chorus]
+      Hold on, make it last
+      Hold on, never turn back
+      (Hold on) You made a rebel of a careless 
+      man's careful daughter (Make it last)
+      (Hold on) You are the best thing 
+      that's ever been mine (Hold on)
+      
+      [Outro]
+      Yes, yes, do you believe it? (Hold on)
+      Yes, yes, we're gonna make it now (Hold on)
+      Yes, yes, I can see it
+      Yes, yes, I can see it now`,
+      album: "Speaknow",
+      artist: "Taylor Swift",
+    },
   ];
 
   const audioRef = useRef(null);
 
   const playPauseHandler = () => {
+    document.querySelector(".image").classList.toggle("show--img--scale");
     if (isPlaying) {
       audioRef.current.pause();
     } else {
@@ -1134,16 +1403,69 @@ function App() {
     document.querySelector(".lyrics").classList.toggle("lyrics--show");
     document.querySelector(".image").classList.toggle("img--float");
   };
+  let bgStyles, bgAppStyles;
+
+  function checkImgUrl() {
+    let currentAlbum = musicData[musicIndex].album;
+
+    if (currentAlbum === "Lover") {
+      bgStyles = {
+        boxShadow: `inset 0 0 0 100vw rgba(0, 0, 0, 0.2)`,
+        background:
+          "linear-gradient(90deg, rgba(236,169,212,1) 0%, rgba(139,194,228,1) 11%, rgba(193,185,222,1) 27%, rgba(202,192,217,1) 30%, rgba(255,236,185,1) 48%, rgba(193,185,222,1) 70%, rgba(254,170,194,1) 100%)",
+      };
+
+      bgAppStyles = { background: `#eca9d4` };
+    } else if (currentAlbum === "Fearless") {
+      bgStyles = {
+        background: ` rgb(91,60,32)`,
+        background: ` linear-gradient(90deg, rgba(91,60,32,1) 0%, rgba(120,87,46,1) 51%, rgba(222,188,125,1) 100%)`,
+      };
+      bgAppStyles = {
+        background: `#DEBC7D`,
+      };
+    } else if (currentAlbum === "Speaknow") {
+      bgStyles = {
+        background: ` rgb(71,42,80)`,
+        background: `linear-gradient(90deg, rgba(71,42,80,1) 0%, rgba(141,89,141,1) 51%, rgba(134,78,136,1) 100%)`,
+      };
+      bgAppStyles = {
+        background: `#864E88`,
+      };
+    } else {
+      bgAppStyles = {
+        background: `lightgray`,
+      };
+      bgStyles = {
+        background: "rgb(72, 72, 72)",
+        background: `linear-gradient(
+        90deg,
+        rgba(72, 72, 72, 1) 1%,
+        rgba(160, 160, 160, 1) 48%,
+        rgba(255, 255, 255, 1) 100%
+      )`,
+      };
+    }
+  }
+
+  // Call the function to set bgStyles
+  checkImgUrl();
+
+  // Use the correct variable name in the style attribute
+  <div style={bgStyles}>Content with dynamic background</div>;
+
+  checkImgUrl();
 
   // console.log(musicData[musicIndex].lyrics);
   return (
-    <div className="App">
+    <div className="App" style={bgStyles}>
       <button className="toggle--btn" onClick={toggle}>
         {isToggle ? <i class="bi bi-x-lg"></i> : <i class="bi bi-list"></i>}
       </button>
       <div
         className="musicList"
         style={{
+          ...bgAppStyles,
           right: isToggle ? "0" : "-100%",
           display: "flex",
           justifyContent: "center",
@@ -1158,7 +1480,7 @@ function App() {
                 setIsPlaying(true);
               }}
             >
-              {song.title}
+              {song.title} <i class="bi bi-music-note"></i>
             </li>
           ))}
         </ul>
@@ -1176,7 +1498,14 @@ function App() {
         <p className="lyrics">
           <pre className="pre--lyrics"> {musicData[musicIndex].lyrics}</pre>
         </p>
-        <h5>{musicData[musicIndex].title}</h5>
+        <h5
+          style={{
+            color: "lightgray",
+            textShadow: ` 0 0 10px rgba(0,0,0,0.7)`,
+          }}
+        >
+          {musicData[musicIndex].title}
+        </h5>
         <p className="artist">{musicData[musicIndex].artist}</p>
         <input
           type="range"
