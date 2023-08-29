@@ -1540,7 +1540,6 @@ function App() {
             ref={audioRef}
             src={musicData[musicIndex].url}
             controls
-            autoPlay
           />
         </div>
       </div>
