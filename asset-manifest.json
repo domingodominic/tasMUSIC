@@ -1,12 +1,13 @@
 {
   "files": {
     "main.css": "/tasMUSIC/static/css/main.f6a3795e.css",
-    "main.js": "/tasMUSIC/static/js/main.ef26c8e7.js",
+    "main.js": "/tasMUSIC/static/js/main.4106c512.js",
     "static/js/787.d525ff22.chunk.js": "/tasMUSIC/static/js/787.d525ff22.chunk.js",
     "static/media/betty.mp3": "/tasMUSIC/static/media/betty.e7eda9eb624d333ff070.mp3",
     "static/media/epiphany.mp3": "/tasMUSIC/static/media/epiphany.c2d153f8d3cac5318b50.mp3",
     "static/media/exile.mp3": "/tasMUSIC/static/media/exile.b5f9669afee8beaad5e2.mp3",
     "static/media/august.mp3": "/tasMUSIC/static/media/august.aa7f7e731989c3b343cc.mp3",
+    "static/media/augustAAC.aac": "/tasMUSIC/static/media/augustAAC.22b9a20417fc12884147.aac",
     "static/media/invisiblestring.mp3": "/tasMUSIC/static/media/invisiblestring.50bdfd89d19c3260e19f.mp3",
     "static/media/mytearsricochet.mp3": "/tasMUSIC/static/media/mytearsricochet.1abbe58b13d81e9b8be7.mp3",
     "static/media/mine.mp3": "/tasMUSIC/static/media/mine.7fd7bd5970fbc4be7342.mp3",
@@ -28,11 +29,11 @@
     "static/media/fearless-alb.jpg": "/tasMUSIC/static/media/fearless-alb.5cd3ee89e804e350e101.jpg",
     "index.html": "/tasMUSIC/index.html",
     "main.f6a3795e.css.map": "/tasMUSIC/static/css/main.f6a3795e.css.map",
-    "main.ef26c8e7.js.map": "/tasMUSIC/static/js/main.ef26c8e7.js.map",
+    "main.4106c512.js.map": "/tasMUSIC/static/js/main.4106c512.js.map",
     "787.d525ff22.chunk.js.map": "/tasMUSIC/static/js/787.d525ff22.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f6a3795e.css",
-    "static/js/main.ef26c8e7.js"
+    "static/js/main.4106c512.js"
   ]
 }
