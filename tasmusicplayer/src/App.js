@@ -9,6 +9,7 @@ import tearsRicochet from "./musics/mytearsricochet.mp3";
 import mirrorball from "./musics/mirrorball.mp3";
 import seven from "./musics/seven.mp3";
 import august from "./musics/august.mp3";
+import augustAAC from "./musics/augustAAC.aac";
 import trying from "./musics/thisismetrying.mp3";
 import invisibleString from "./musics/invisiblestring.mp3";
 import illicit from "./musics/illicit.mp3";
@@ -1428,6 +1429,14 @@ function App() {
       album: "Speaknow",
       artist: "Taylor Swift",
     },
+    {
+      title: "Augist AAC",
+      url: augustAAC,
+      img: folkloreImg,
+      lyrics: "",
+      album: "Folklore",
+      artist: "Taylor Swift",
+    },
   ];
 
   const audioRef = useRef(null);
@@ -1629,7 +1638,6 @@ function App() {
             </button>
           </div>
           <audio
-            type="audio/mpeg"
             style={{ display: "none" }}
             ref={audioRef}
             src={musicData[musicIndex].url}
