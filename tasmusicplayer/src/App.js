@@ -35,6 +35,20 @@ function App() {
     setToggle(!isToggle);
   }
 
+  function formatTime(totalSeconds) {
+    const hours = Math.floor(totalSeconds / 3600);
+    const minutes = Math.floor((totalSeconds % 3600) / 60);
+    const seconds = totalSeconds % 60;
+
+    const formattedTime = `${hours}:${minutes < 10 ? "0" : ""}${minutes}:${
+      seconds < 10 ? "0" : ""
+    }${seconds}`;
+    return formattedTime;
+  }
+
+  let onTime = formatTime(Math.floor(currentTime));
+  let inTime = Math.floor(currentTime);
+
   const musicData = [
     {
       title: "The 1",
@@ -53,13 +67,17 @@ function App() {
       
       [Pre-Chorus]
       I guess you never know, never know
-      And if you wanted me, you really should've showed
-      And if you never bleed, you're never gonna grow
+      And if you wanted me, you really
+       should've showed
+      And if you never bleed, you're 
+      never gonna grow
       And it's alright now 
       
       [Chorus]
-      But we were something, don't you think so?
-      Roaring twenties, tossing pennies in the pool
+      But we were something, don't you
+       think so?
+      Roaring twenties, tossing pennies
+       in the pool
       And if my wishes came true
       It would've been you
       In my defense, I have none
@@ -70,22 +88,31 @@ function App() {
       
 
       [Verse 2]
-      I have this dream you're doing cool shit
+      I have this dream you're doing
+       cool shit
       Having adventures on your own
-      You meet some woman on the internet and 
-      take her home We never painted by the numbers,
-     baby but we were making it count You know
-      the greatest loves of all time are over now
+      You meet some woman on the 
+      internet and 
+      take her home We never painted
+       by the numbers,
+     baby but we were making it 
+     count You know
+      the greatest loves of all
+       time are over now
       You might also like
      
       [Pre-Chorus]
-      I guess you never know, never know
-      And it's another day waking up alone
+      I guess you never know, 
+      never know
+      And it's another day waking 
+      up alone
       
 
       [Chorus]
-      But we were something, don't you think so?
-      Roaring twenties, tossing pennies in the pool
+      But we were something, don't you 
+      think so?
+      Roaring twenties, tossing 
+      pennies in the pool
       And if my wishes came true
       It would've been you
       In my defense, I have none
@@ -95,18 +122,23 @@ function App() {
       
 
       [Bridge]
-      I, I, I persist and resist the temptation
-       to ask you if one thing had been different
+      I, I, I persist and resist
+       the temptation
+       to ask you if one thing had 
+       been different
       Would everything be different today?
       
 
       [Chorus]
-      We were something, don't you think so?
-      Rosé flowing with your chosen family
+      We were something,
+       don't you think so?
+      Rosé flowing with your
+       chosen family
       And it would've been sweet
       If it could've been me
       In my defense, I have none
-      For digging up the grave another time
+      For digging up the grave 
+      another time
       But it would've been fun
       If you would've been the one
       (Ooh)`,
@@ -119,10 +151,12 @@ function App() {
       lyrics: `[Verse 1]
       Vintage tee, brand new phone
       High heels on cobblestones
-      When you are young, they assume you know nothing
+      When you are young, they assume 
+      you know nothing
       Sequin smile, black lipstick
       Sensual politics
-      When you are young, they assume you know nothing
+      When you are young, they 
+      assume you know nothing
       
       [Chorus]
       But I knew you
@@ -133,21 +167,19 @@ function App() {
       Baby, kiss it better, I
       
       [Refrain]
-      And when I felt like I was an old cardigan
+      And when I felt like I was 
+      an old cardigan
       Under someone's bed
-      You put me on and said I was your favorite
+      You put me on and said I was
+      your favorite
       
       [Verse 2]
-      A friend to all is a friend to none
+      A friend to all is a friend
+       to none
       Chase two girls, lose the one
-      When you are young, they assume you know nothing
-      You might also like
-      I Can See You (Taylor’s Version) [From The Vault]
-      Taylor Swift
-      ​​​vampire
-      Olivia Rodrigo
-      All Of The Girls You Loved Before
-      Taylor Swift
+      When you are young, they 
+      assume you know nothing
+     
       [Chorus]
       But I knew you
       Playing hide-and-seek and
@@ -157,12 +189,15 @@ function App() {
       Once in twenty lifetimes, I
       
       [Refrain]
-      And when I felt like I was an old cardigan
+      And when I felt like I was
+       an old cardigan
       Under someone's bed
-      You put me on and said I was your favorite
+      You put me on and said I 
+      was your favorite
       
       [Bridge]
-      To kiss in cars and downtown bars
+      To kiss in cars and 
+      downtown bars
       Was all we needed
       You drew stars around my scars
       But now I'm bleedin'
@@ -177,25 +212,37 @@ function App() {
       I knew you
       Leavin' like a father
       Running like water, I
-      And when you are young, they assume you know nothing
+      And when you are young, 
+      they assume you know nothing
+
       [Verse 3]
-      But I knew you'd linger like a tattoo kiss
-      I knew you'd haunt all of my what-ifs
-      The smell of smoke would hang around this long
-      'Cause I knew everything when I was young
-      I knew I'd curse you for the longest time
-      Chasin' shadows in the grocery line
-      I knew you'd miss me once the thrill expired
-      And you'd be standin' in my front porch light
+      But I knew you'd linger
+       like a tattoo kiss
+      I knew you'd haunt all of
+       my what-ifs
+      The smell of smoke would 
+      hang around this long
+      'Cause I knew everything 
+      when I was young
+      I knew I'd curse you for 
+      the longest time
+      Chasin' shadows in the
+       grocery line
+      I knew you'd miss me once 
+      the thrill expired
+      And you'd be standin' 
+      in my front porch light
       And I knew you'd come back to me
       You'd come back to me
       And you'd come back to me
       And you'd come back
       
       [Refrain]
-      And when I felt like I was an old cardigan
+      And when I felt like I was 
+      an old cardigan
       Under someone's bed
-      You put me on and said I was your favorite`,
+      You put me on and said I was
+       your favorite`,
       artist: "Taylor Swift",
     },
     {
@@ -204,35 +251,54 @@ function App() {
       img: folkloreImg,
       album: "Folklore",
       lyrics: `[Verse 1]
-      Rebekah rode up on the afternoon train,
-       it was sunny, Her saltbox house on the 
-       coast took her mind off St. Louis
-      Bill was the heir to the Standard Oil 
+      Rebekah rode up on the 
+      afternoon train,
+       it was sunny, Her saltbox
+        house on the 
+       coast took her mind off
+        St. Louis
+      Bill was the heir to the
+       Standard Oil 
       name and money And the town said,
-       "How did a middle-class divorcée do it?"
-      The wedding was charming, if a little gauche
+       "How did a middle-class 
+       divorcée do it?"
+      The wedding was charming, 
+      if a little gauche
       There's only so far new money goes
       They picked out a home and called it
-       "Holiday House "Their parties were tasteful, 
+       "Holiday House 
+       "Their parties were tasteful, 
        if a little loud
-      The doctor had told him to settle down
-      It must have been her fault his heart gave out
+      The doctor had told him to 
+      settle down
+      It must have been her fault 
+      his heart gave out
       
       [Chorus]
       And they said
-      "There goes the last great American dynasty
-      Who knows, if she never showed up, 
-      what could've been There goes the maddest
+      "There goes the last great
+       American dynasty
+      Who knows, if she never 
+      showed up, 
+      what could've been There 
+      goes the maddest
        woman this town has ever seen
-      She had a marvelous time ruining everything"
+      She had a marvelous time
+       ruining everything"
       
       [Verse 2]
-      Rebekah gave up on the Rhode Island set
-     forever Flew in all her Bitch Pack friends 
-     from the city Filled the pool with champagne
-      and swam with the big names And blew through
-       the money on the boys and the ballet
-      And losing on card game bets with Dalí
+      Rebekah gave up on the Rhode
+       Island set
+     forever Flew in all her
+      Bitch Pack friends 
+     from the city Filled the pool 
+     with champagne
+      and swam with the big names 
+      And blew through
+       the money on the boys and 
+       the ballet
+      And losing on card game 
+      bets with Dalí
      
       [Chorus]
       And they said
@@ -1455,6 +1521,14 @@ function App() {
   <div style={bgStyles}>Content with dynamic background</div>;
 
   checkImgUrl();
+  // let time = Math.floor(currentTime - audioRef.current.duration);
+
+  function inTimeState(inTime) {
+    // let inHours = Math.floor(time / 3600);
+    // let inMins = Math.floor(time % 3600) / 60;
+    // let inSecs = time % 60;
+    // let informattedTime = `${inMins}`;
+  }
 
   // console.log(musicData[musicIndex].lyrics);
   return (
@@ -1473,15 +1547,25 @@ function App() {
       >
         <ul className="list--music">
           {musicData.map((song, i) => (
-            <li
-              className="list--active"
-              onClick={() => {
-                setMusicIndex(i);
-                setIsPlaying(true);
+            <div
+              style={{
+                display: "flex",
+                width: "100%",
+                borderBottom: "1px solid gray",
               }}
             >
-              {song.title} <i class="bi bi-music-note"></i>
-            </li>
+              <p>{i + 1}</p>
+              <li
+                className="list--active"
+                onClick={() => {
+                  setMusicIndex(i);
+                  setIsPlaying(true);
+                }}
+              >
+                {song.title}
+              </li>
+              <i class="bi bi-music-note"></i>
+            </div>
           ))}
         </ul>
       </div>
@@ -1519,6 +1603,15 @@ function App() {
         />
 
         <div>
+          <p
+            style={{
+              marginLeft: "250px",
+              fontSize: "12px",
+              color: "white",
+            }}
+          >
+            {onTime}
+          </p>
           <div className="buttons">
             <button className="rewind" onClick={prevSongHandler}>
               <i class="bi bi-rewind"></i>
@@ -1536,13 +1629,28 @@ function App() {
             </button>
           </div>
           <audio
+            type="audio/mpeg"
             style={{ display: "none" }}
             ref={audioRef}
             src={musicData[musicIndex].url}
             controls
+            autoPlay
+            preload="auto"
           />
+          {/* <audio
+            style={{ display: "none" }}
+            ref={audioRef}
+            controls
+            autoPlay
+            preload="auto"
+          >
+            <source src={musicData[musicIndex].url} type="audio/mpeg" />
+            Your browser does not support the audio element.
+          </audio> */}
         </div>
       </div>
+
+      {/* <h1>{}</h1> */}
     </div>
   );
 }

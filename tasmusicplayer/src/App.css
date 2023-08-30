@@ -59,17 +59,18 @@
 }
 .music--container {
   position: relative;
-  overflow: hidden;
   width: 500px;
   height: 80vh;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .image {
-  height: 250px;
+  height: 280px;
   width: 300px;
   border-radius: 20px;
+  margin-top: 20px;
   transform-origin: right;
+  box-shadow: 15px 20px 20px rgba(0, 0, 0, 0.3);
   transition: all 0.3s ease-in-out;
 }
 .artist {
@@ -91,15 +92,19 @@
   background: none;
   border: none;
 }
+.forward:active {
+  transform: scale(0.9);
+  transition: all 0.2s ease;
+}
 .rewind i,
 .forward i {
   font-size: 40px;
   color: white;
 }
 
-.rewind i:active {
-  transform: scaleX(1.1);
-  transition: all 0.5s;
+.rewind:active {
+  transform: scale(0.9);
+  transition: all 0.2s ease;
 }
 .buttons {
   margin-top: 20px;
@@ -109,6 +114,7 @@
   background: none;
   border: none;
   padding: 20px;
+
   z-index: 2;
   top: 0;
   right: 0;
@@ -116,12 +122,14 @@
 .toggle--btn i {
   font-size: 30px;
   font-weight: bold;
-  color: black;
+  cursor: pointer;
+  color: white;
 }
 .list--music {
   margin-top: 40px;
-  overflow: scroll;
+  width: 80%;
   padding: 0;
+  padding-bottom: 50px;
 }
 .list--music li {
   list-style: none;
@@ -161,5 +169,5 @@
   color: lightgray;
   text-align: center;
   margin: 0;
-  padding-right: 20px;
+  padding-right: 30px;
 }
