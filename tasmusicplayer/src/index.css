@@ -36,9 +36,8 @@ code {
 }
 
 .show--img--scale {
-  transform: scale(0.9);
-  margin: 0;
-  margin-right: 7%;
+  width: 250px !important;
+  height: 230px !important;
 }
 .list--active {
   width: 100%;

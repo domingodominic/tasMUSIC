@@ -1,27 +1,26 @@
 import React, { useState, useRef, useEffect } from "react";
 import "./App.css";
 import folkloreImg from "./img/folklore.jpg";
-import theOne from "./musics/the1.mp3";
-import cardigan from "./musics/cardigan.mp3";
-import thelastamerican from "./musics/ThelastGreat.mp3";
-import exile from "./musics/exile.mp3";
-import tearsRicochet from "./musics/mytearsricochet.mp3";
-import mirrorball from "./musics/mirrorball.mp3";
-import seven from "./musics/seven.mp3";
-import august from "./musics/august.mp3";
-import augustAAC from "./musics/augustAAC.aac";
-import trying from "./musics/thisismetrying.mp3";
-import invisibleString from "./musics/invisiblestring.mp3";
-import illicit from "./musics/illicit.mp3";
-import madwoman from "./musics/madwoman.mp3";
-import epiphany from "./musics/epiphany.mp3";
-import betty from "./musics/betty.mp3";
-import peace from "./musics/peace.mp3";
-import hoax from "./musics/hoax.mp3";
+import theOne from "./musics/the1AAC.aac";
+import cardigan from "./musics/cardiganAAC.aac";
+import thelastamerican from "./musics/ThelastGreatAAC.aac";
+import exile from "./musics/exileAAC.aac";
+import tearsRicochet from "./musics/mytearsricochet.aac";
+import mirrorball from "./musics/mirrorballaac.aac";
+import seven from "./musics/sevenAAC.aac";
+import august from "./musics/augustAAC.aac";
+import trying from "./musics/thisismetryingAAC.aac";
+import invisibleString from "./musics/invisiblestringAAC.aac";
+import illicit from "./musics/illicitAAC.aac";
+import madwoman from "./musics/madwomanAAC.aac";
+import epiphany from "./musics/epiphanyAAC.aac";
+import betty from "./musics/bettyAAC.aac";
+import peace from "./musics/peaceAAC.aac";
+import hoax from "./musics/hoaxAAC.aac";
 import loverAlbum from "./img/lover--album.jpg";
-import forgotExist from "./musics/forgotexisted.mp3";
+import forgotExist from "./musics/forgotexistedAAC.aac";
 import fearlessAlb from "./img/fearless-alb.jpg";
-import fearless from "./musics/fearless.mp3";
+import fearless from "./musics/fearlessAAC.aac";
 import mine from "./musics/mine.mp3";
 import speaknowAlb from "./img/speaknow-alb.jpg";
 function App() {
@@ -1427,14 +1426,6 @@ function App() {
       Yes, yes, I can see it
       Yes, yes, I can see it now`,
       album: "Speaknow",
-      artist: "Taylor Swift",
-    },
-    {
-      title: "Augist AAC",
-      url: augustAAC,
-      img: folkloreImg,
-      lyrics: "",
-      album: "Folklore",
       artist: "Taylor Swift",
     },
   ];

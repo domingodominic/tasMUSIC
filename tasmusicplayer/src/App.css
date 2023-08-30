@@ -68,10 +68,12 @@
   height: 280px;
   width: 300px;
   border-radius: 20px;
+  display: block;
+  margin: 0 auto;
   margin-top: 20px;
   transform-origin: right;
   box-shadow: 15px 20px 20px rgba(0, 0, 0, 0.3);
-  transition: all 0.3s ease-in-out;
+  transition: all 0.4s ease-in-out;
 }
 .artist {
   color: white;
