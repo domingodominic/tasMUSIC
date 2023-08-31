@@ -28,12 +28,8 @@ function App() {
   const [isPlaying, setIsPlaying] = useState(false);
   const [currentTime, setCurrentTime] = useState(0);
   const [duration, setDuration] = useState(0);
-  const [isToggle, setToggle] = useState(false);
   const [isImgToggle, setImgToggle] = useState(false);
   const [imgUrl, setImgurl] = useState(folkloreImg);
-  function toggle() {
-    setToggle(!isToggle);
-  }
 
   function formatTime(totalSeconds) {
     const hours = Math.floor(totalSeconds / 3600);
@@ -1432,7 +1428,8 @@ function App() {
 
   const audioRef = useRef(null);
 
-  const playPauseHandler = () => {
+  const playPauseHandler = (e) => {
+    e.stopPropagation();
     document.querySelector(".image").classList.toggle("show--img--scale");
     if (isPlaying) {
       audioRef.current.pause();
@@ -1442,12 +1439,14 @@ function App() {
     setIsPlaying(!isPlaying);
   };
 
-  const nextSongHandler = () => {
+  const nextSongHandler = (event) => {
+    event.stopPropagation();
     setIsPlaying(true);
     setMusicIndex((prevIndex) => (prevIndex + 1) % musicData.length);
   };
 
-  const prevSongHandler = () => {
+  const prevSongHandler = (event) => {
+    event.stopPropagation();
     setIsPlaying(true);
     setMusicIndex((prevIndex) =>
       prevIndex === 0 ? musicData.length - 1 : prevIndex - 1
@@ -1530,30 +1529,73 @@ function App() {
     // let informattedTime = `${inMins}`;
   }
 
-  // console.log(musicData[musicIndex].lyrics);
+  function bringdown() {
+    let app = document.querySelector(".App");
+    let img = document.querySelector(".image");
+    let btn = document.querySelector(".buttons");
+    let title = document.querySelector(".title");
+    let dash = document.querySelector(".dash");
+    dash.style.opacity = "0";
+
+    img.classList.add("showImg");
+    btn.style.position = "absolute";
+    btn.style.right = "10%";
+    btn.style.bottom = "47%";
+
+    title.style.position = "absolute";
+    title.style.bottom = "48%";
+    title.style.left = "20%";
+    title.style.width = "100px";
+    app.classList.remove("checkHeight");
+    app.classList.add("bringdown");
+    let range = document.getElementById("range");
+
+    range.style.opacity = "0";
+  }
+
+  function checkHeight() {
+    const appElement = document.getElementById("myApp");
+
+    if (window.getComputedStyle(appElement).height === "100px") {
+      let btn = document.querySelector(".buttons");
+      let range = document.getElementById("range");
+      let title = document.querySelector(".title");
+
+      title.style.position = "relative";
+      title.style.bottom = "0";
+      title.style.left = "0";
+      title.style.marginTop = "30px";
+      title.style.width = "100%";
+
+      range.style.opacity = "1";
+
+      btn.style.display = "block";
+      btn.style.position = "relative";
+      btn.style.right = "0";
+      btn.style.display = "flex";
+      let img = document.querySelector(".image");
+      appElement.classList.add("checkHeight");
+      img.classList.remove("showImg");
+
+      let dash = document.querySelector(".dash");
+      dash.style.opacity = "1";
+    }
+  }
   return (
-    <div className="App" style={bgStyles}>
-      <button className="toggle--btn" onClick={toggle}>
-        {isToggle ? <i class="bi bi-x-lg"></i> : <i class="bi bi-list"></i>}
-      </button>
+    <div>
       <div
         className="musicList"
         style={{
           ...bgAppStyles,
-          right: isToggle ? "0" : "-100%",
+          right: "0%",
           display: "flex",
           justifyContent: "center",
+          zIndex: "-2",
         }}
       >
         <ul className="list--music">
           {musicData.map((song, i) => (
-            <div
-              style={{
-                display: "flex",
-                width: "100%",
-                borderBottom: "1px solid gray",
-              }}
-            >
+            <div>
               <p>{i + 1}</p>
               <li
                 className="list--active"
@@ -1569,87 +1611,108 @@ function App() {
           ))}
         </ul>
       </div>
-      <div className="music--container">
-        <img
-          className="image"
-          onClick={imageToggle}
-          style={{
-            width: "300px",
-          }}
-          src={musicData[musicIndex].img}
-          alt={musicData[musicIndex].album + " Album"}
-        />
-        <p className="lyrics">
-          <pre className="pre--lyrics"> {musicData[musicIndex].lyrics}</pre>
-        </p>
-        <h5
-          style={{
-            color: "lightgray",
-            textShadow: ` 0 0 10px rgba(0,0,0,0.7)`,
-          }}
-        >
-          {musicData[musicIndex].title}
-        </h5>
-        <p className="artist">{musicData[musicIndex].artist}</p>
-        <input
-          type="range"
-          value={currentTime}
-          max={duration}
-          id="range"
-          onChange={(e) => {
-            audioRef.current.currentTime = e.target.value;
-            setCurrentTime(e.target.value);
-          }}
-        />
+      <div id="myApp" onClick={checkHeight} className="App" style={bgStyles}>
+        <div className="dash" onClick={bringdown}>
+          <i class="bi bi-dash"></i>
+        </div>
 
-        <div>
-          <p
+        <div className="music--container">
+          <img
+            className="image"
+            onClick={imageToggle}
             style={{
-              marginLeft: "250px",
-              fontSize: "12px",
-              color: "white",
+              width: "320px",
+            }}
+            src={musicData[musicIndex].img}
+            alt={musicData[musicIndex].album + " Album"}
+          />
+          <p className="lyrics">
+            <pre className="pre--lyrics"> {musicData[musicIndex].lyrics}</pre>
+          </p>
+          <h5
+            className="title"
+            style={{
+              color: "lightgray",
+              textShadow: ` 0 0 10px rgba(0,0,0,0.7)`,
+              marginTop: "30px",
             }}
           >
-            {onTime}
-          </p>
-          <div className="buttons">
-            <button className="rewind" onClick={prevSongHandler}>
-              <i class="bi bi-rewind"></i>
-            </button>
-            <button className="playAndPause" onClick={playPauseHandler}>
-              {isPlaying ? (
-                <i class="bi bi-pause"></i>
-              ) : (
-                <i class="bi bi-play"></i>
-              )}
-            </button>
-            <button className="forward" onClick={nextSongHandler}>
-              {" "}
-              <i class="bi bi-fast-forward"></i>
-            </button>
-          </div>
-          <audio
-            style={{ display: "none" }}
-            ref={audioRef}
-            src={musicData[musicIndex].url}
-            controls
-            autoPlay
-            preload="auto"
+            {musicData[musicIndex].title}
+          </h5>
+          <p className="artist">{musicData[musicIndex].artist}</p>
+          <input
+            type="range"
+            value={currentTime}
+            max={duration}
+            title="music time range"
+            id="range"
+            onChange={(e) => {
+              audioRef.current.currentTime = e.target.value;
+              setCurrentTime(e.target.value);
+            }}
           />
-          {/* <audio
-            style={{ display: "none" }}
-            ref={audioRef}
-            controls
-            autoPlay
-            preload="auto"
-          >
-            <source src={musicData[musicIndex].url} type="audio/mpeg" />
-            Your browser does not support the audio element.
-          </audio> */}
+
+          <div>
+            <p
+              style={{
+                marginLeft: "250px",
+                fontSize: "12px",
+                color: "white",
+              }}
+            >
+              {onTime}
+            </p>
+            <div className="for--volume">
+              <input
+                className="volume"
+                style={{ height: "3px" }}
+                type="range"
+                step="0.1"
+                min="0"
+                max="1"
+                onChange={(e) => {
+                  let val = e.target.value;
+                  let audio = document.querySelector(".audio");
+                  audio.volume = val;
+                }}
+              />
+              <i
+                class="bi bi-volume-up-fill"
+                id="volumeUp"
+                onClick={() => {
+                  let vol = document.querySelector(".volume");
+                  vol.classList.toggle("vol--hide");
+                }}
+              ></i>
+            </div>
+            <div className="buttons">
+              <button className="rewind" onClick={prevSongHandler}>
+                <i class="bi bi-rewind-fill"></i>
+              </button>
+              <button className="playAndPause" onClick={playPauseHandler}>
+                {isPlaying ? (
+                  <i class="bi bi-pause-fill"></i>
+                ) : (
+                  <i class="bi bi-play-fill"></i>
+                )}
+              </button>
+              <button className="forward" onClick={nextSongHandler}>
+                {" "}
+                <i class="bi bi-fast-forward-fill"></i>
+              </button>
+            </div>
+            <audio
+              className="audio"
+              style={{ display: "none" }}
+              ref={audioRef}
+              src={musicData[musicIndex].url}
+              controls
+              autoPlay
+              preload="auto"
+            />
+          </div>
         </div>
       </div>
-
-      {/* <h1>{}</h1> */}
     </div>
   );
 }

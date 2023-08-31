@@ -2,11 +2,17 @@
 
 .App {
   text-align: center;
+  transition: all 0.5s;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -109,6 +115,9 @@
   transition: all 0.2s ease;
 }
 .buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
   margin-top: 20px;
 }
 .toggle--btn {
@@ -129,7 +138,7 @@
 }
 .list--music {
   margin-top: 40px;
-  width: 80%;
+  width: 100%;
   padding: 0;
   padding-bottom: 50px;
 }
@@ -137,7 +146,16 @@
   list-style: none;
   font-size: 10px;
   font-family: "Poppins", sans-serif;
-  margin-top: 20px;
+}
+.list--music div {
+  display: grid;
+  text-align: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  width: 100%;
+  border-bottom: 1px solid gray;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
 }
 .img--float {
   position: relative;
@@ -145,6 +163,7 @@
   height: 50px !important;
   border-radius: 2px;
   transition: all 0.5s;
+  margin-top: 0;
   right: 30% !important;
   margin-bottom: 10px;
   transform-origin: right;
@@ -172,4 +191,55 @@
   text-align: center;
   margin: 0;
   padding-right: 30px;
+}
+.for--volume {
+  position: absolute;
+  left: 20px;
+  margin-top: 6%;
+  display: flex;
+}
+.volume {
+  height: 4px !important;
+  transform: rotate(-90deg);
+  width: 30%;
+  writing-mode: vertical-rl !important;
+}
+.volume + i {
+  position: absolute;
+  top: 30px;
+  left: 17px;
+
+  color: white;
+}
+.volume::-webkit-slider-thumb {
+  background: white;
+  background-color: white;
+  opacity: 0;
+}
+.volume::before {
+  content: "";
+}
+.volume:active .volume::-moz-range-thumb {
+  opacity: 0 !important;
+}
+.vol--hide {
+  opacity: 0;
+  transition: all 0.2s;
+}
+.dash {
+  position: absolute;
+  top: -10px;
+}
+.dash i {
+  font-size: 55px;
+  color: gray;
+}
+.checkHeight {
+  height: 100vh !important;
+}
+.bringdown {
+  position: absolute;
+  height: 100px;
+
+  bottom: 0px !important;
 }
