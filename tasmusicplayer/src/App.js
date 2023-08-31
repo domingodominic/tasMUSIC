@@ -1530,27 +1530,32 @@ function App() {
   }
 
   function bringdown() {
-    let app = document.querySelector(".App");
     let img = document.querySelector(".image");
-    let btn = document.querySelector(".buttons");
-    let title = document.querySelector(".title");
-    let dash = document.querySelector(".dash");
-    dash.style.opacity = "0";
+    let imgWidth = window.getComputedStyle(img).width;
 
-    img.classList.add("showImg");
-    btn.style.position = "absolute";
-    btn.style.right = "10%";
-    btn.style.bottom = "47%";
+    if (imgWidth === "320px" || imgWidth === "270px") {
+      let app = document.querySelector(".App");
 
-    title.style.position = "absolute";
-    title.style.bottom = "48%";
-    title.style.left = "20%";
-    title.style.width = "100px";
-    app.classList.remove("checkHeight");
-    app.classList.add("bringdown");
-    let range = document.getElementById("range");
+      let btn = document.querySelector(".buttons");
+      let title = document.querySelector(".title");
+      let dash = document.querySelector(".dash");
+      dash.style.opacity = "0";
 
-    range.style.opacity = "0";
+      img.classList.add("showImg");
+      btn.style.position = "absolute";
+      btn.style.right = "10%";
+      btn.style.bottom = "47%";
+
+      title.style.position = "absolute";
+      title.style.bottom = "48%";
+      title.style.left = "20%";
+      title.style.width = "100px";
+      app.classList.remove("checkHeight");
+      app.classList.add("bringdown");
+      let range = document.getElementById("range");
+
+      range.style.opacity = "0";
+    }
   }
 
   function checkHeight() {
@@ -1561,9 +1566,7 @@ function App() {
       let range = document.getElementById("range");
       let title = document.querySelector(".title");
 
-      title.style.position = "relative";
-      title.style.bottom = "0";
-      title.style.left = "0";
+      title.style.position = "static";
       title.style.marginTop = "30px";
       title.style.width = "100%";
 
@@ -1579,6 +1582,7 @@ function App() {
 
       let dash = document.querySelector(".dash");
       dash.style.opacity = "1";
+      dash.style.top = "30px";
     }
   }
   return (
@@ -1593,6 +1597,7 @@ function App() {
           zIndex: "-2",
         }}
       >
+        <h2 style={{ position: "absolute", textAlign: "center" }}>Songs</h2>
         <ul className="list--music">
           {musicData.map((song, i) => (
             <div>
