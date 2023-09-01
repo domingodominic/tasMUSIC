@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/tasMUSIC/static/css/main.c01c57b0.css",
-    "main.js": "/tasMUSIC/static/js/main.d51f4d7f.js",
+    "main.css": "/tasMUSIC/static/css/main.25fdbdaa.css",
+    "main.js": "/tasMUSIC/static/js/main.6746becf.js",
     "static/js/787.d525ff22.chunk.js": "/tasMUSIC/static/js/787.d525ff22.chunk.js",
     "static/media/enchantedAAC.aac": "/tasMUSIC/static/media/enchantedAAC.73f1ddd1251f7d80b9a6.aac",
     "static/media/longliveAAC.aac": "/tasMUSIC/static/media/longliveAAC.abadb1280bae74604acf.aac",
@@ -20,11 +20,15 @@
     "static/media/snowbeachAAC.aac": "/tasMUSIC/static/media/snowbeachAAC.61b2e1c86ad5ccc3584a.aac",
     "static/media/ThelastGreatAAC.aac": "/tasMUSIC/static/media/ThelastGreatAAC.9fab5867795de778a742.aac",
     "static/media/mirrorballaac.aac": "/tasMUSIC/static/media/mirrorballaac.fd7e97ed9eaca96d86d4.aac",
+    "static/media/paperringsAAC.aac": "/tasMUSIC/static/media/paperringsAAC.7637c2c0e39c56d0e7f1.aac",
     "static/media/hoaxAAC.aac": "/tasMUSIC/static/media/hoaxAAC.94bd6808314965bef281.aac",
     "static/media/peaceAAC.aac": "/tasMUSIC/static/media/peaceAAC.cd3f403e87c3ee3ac42d.aac",
     "static/media/the1AAC.aac": "/tasMUSIC/static/media/the1AAC.31908d8811c3da134188.aac",
     "static/media/sevenAAC.aac": "/tasMUSIC/static/media/sevenAAC.22501a192c5a8603d9b8.aac",
+    "static/media/karmaAAC.aac": "/tasMUSIC/static/media/karmaAAC.7e392ab8ff5253599796.aac",
     "static/media/antiheroAAC.aac": "/tasMUSIC/static/media/antiheroAAC.1b00e461306df117f92d.aac",
+    "static/media/parisAAC.aac": "/tasMUSIC/static/media/parisAAC.584afca23a919e9c993e.aac",
+    "static/media/kid.aac": "/tasMUSIC/static/media/kid.f81e09f5f4bececabd81.aac",
     "static/media/thisismetryingAAC.aac": "/tasMUSIC/static/media/thisismetryingAAC.17c7dac4e5c138be41ad.aac",
     "static/media/illicitAAC.aac": "/tasMUSIC/static/media/illicitAAC.3c41e4e7fe508774e635.aac",
     "static/media/cruelsummerAAC.aac": "/tasMUSIC/static/media/cruelsummerAAC.b5c4440d8212b21d2eea.aac",
@@ -35,12 +39,12 @@
     "static/media/midnights.jpg": "/tasMUSIC/static/media/midnights.cb3e887b2f698d1a40cf.jpg",
     "static/media/fearless-alb.jpg": "/tasMUSIC/static/media/fearless-alb.5cd3ee89e804e350e101.jpg",
     "index.html": "/tasMUSIC/index.html",
-    "main.c01c57b0.css.map": "/tasMUSIC/static/css/main.c01c57b0.css.map",
-    "main.d51f4d7f.js.map": "/tasMUSIC/static/js/main.d51f4d7f.js.map",
+    "main.25fdbdaa.css.map": "/tasMUSIC/static/css/main.25fdbdaa.css.map",
+    "main.6746becf.js.map": "/tasMUSIC/static/js/main.6746becf.js.map",
     "787.d525ff22.chunk.js.map": "/tasMUSIC/static/js/787.d525ff22.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c01c57b0.css",
-    "static/js/main.d51f4d7f.js"
+    "static/css/main.25fdbdaa.css",
+    "static/js/main.6746becf.js"
   ]
 }
