@@ -33,13 +33,25 @@ import antihero from "./musics/antiheroAAC.aac";
 import cruelsummer from "./musics/cruelsummerAAC.aac";
 import paperrings from "./musics/paperringsAAC.aac";
 import ownkid from "./musics/kid.aac";
+import fly from "./musics/fly.aac";
+import dress from "./musics/dress.aac";
+import call from "./musics/call.aac";
 import maroon from "./musics/maroonAAC.aac";
 import labyrinth from "./musics/labyrinthAAC.aac";
 import bejeweled from "./musics/bejeweledAAC.aac";
 import daylight from "./musics/daylightAAC.aac";
+import shit from "./musics/shitAAC.aac";
+import americana from "./musics/americanaAAC.aac";
+import haze from "./musics/hazeAAC.aac";
+import mastermind from "./musics/mastermindAAC.aac";
 import nothing from "./musics/nothingAAC.aac";
 import paris from "./musics/parisAAC.aac";
+import heknows from "./musics/heknowsAAC.aac";
 import karma from "./musics/karmaAAC.aac";
+import reputation from "./img/reputation.jpeg";
+import delicate from "./musics/delicate.aac";
+import december from "./musics/decemberAAC.aac";
+import lwymmd from "./musics/lwymmd.aac";
 function App() {
   const [musicIndex, setMusicIndex] = useState(1);
 
@@ -318,31 +330,49 @@ function App() {
      
       [Chorus]
       And they said
-      "There goes the last great American dynasty
-      Who knows, if she never showed up, what
-       could've been There goes the most shameless
-        woman this town has ever seen She had a 
-        marvelous time ruining everything"
+      "There goes the last 
+      great American dynasty
+      Who knows, if she 
+      never showed up, what
+       could've been There
+        goes the most shameless
+        woman this town has
+         ever seen She had a 
+        marvelous time 
+        ruining everything"
       
       [Bridge]
-      They say she was seen on occasion
-      Pacing the rocks, staring out at the
-       midnight sea And in a feud with her
-       neighbor She stole his dog and dyed it 
-       key lime green Fifty years is a long time
-      Holiday House sat quietly on that beach
-      Free of women with madness, their men and
-       bad habits And then it was bought by me
+      They say she was seen
+       on occasion
+      Pacing the rocks, 
+      staring out at the
+       midnight sea And in 
+       a feud with her
+       neighbor She stole
+        his dog and dyed it 
+       key lime green Fifty
+        years is a long time
+      Holiday House sat 
+      quietly on that beach
+      Free of women with
+       madness, their men and
+       bad habits And then
+        it was bought by me
       
       [Chorus]
-      Who knows, if I never showed up, what 
-      could've been There goes the loudest woman
-       this town has ever seen I had a marvelous
+      Who knows, if I never 
+      showed up, what 
+      could've been There
+       goes the loudest woman
+       this town has ever
+        seen I had a marvelous
         time ruining everything
       
       [Outro]
-      I had a marvelous time ruining everything
-      A marvelous time ruining everything
+      I had a marvelous time
+       ruining everything
+      A marvelous time ruining
+       everything
       A marvelous time
       I had a marvelous time`,
       artist: "Taylor Swift",
@@ -356,39 +386,58 @@ function App() {
       lyrics: `[Verse 1: Justin Vernon]
       I can see you standing, honey
       With his arms around your body
-      Laughin', but the joke's not funny at all
-      And it took you five whole minutes
-      To pack us up and leave me with it
-      Holdin' all this love out here in the hall
+      Laughin', but the joke's 
+      not funny at all
+      And it took you five 
+      whole minutes
+      To pack us up and leave 
+      me with it
+      Holdin' all this love 
+      out here in the hall
       
       [Chorus: Justin Vernon]
-      I think I've seen this film before
-      And I didn't like the ending
-      You're not my homeland anymore
-      So what am I defending now?
-      You were my town, now I'm in exile, 
-      seein' you out I think I've seen this
+      I think I've seen this
+       film before
+      And I didn't like
+       the ending
+      You're not my
+       homeland anymore
+      So what am I defending
+       now?
+      You were my town, 
+      now I'm in exile, 
+      seein' you out I 
+      think I've seen this
        film before
       
       [Post-Chorus: Justin Vernon]
       Ooh, ooh, ooh
       
       [Verse 2: Taylor Swift]
-      I can see you starin', honey
-      Like he's just your understudy
-      Like you'd get your knuckles bloody for me
-      Second, third, and hundredth chances
-      Balancin' on breaking branches
-      Those eyes add insult to injury
+      I can see you starin',
+       honey
+      Like he's just your
+       understudy
+      Like you'd get your
+       knuckles bloody for me
+      Second, third, and
+       hundredth chances
+      Balancin' on breaking
+       branches
+      Those eyes add insult
+       to injury
      
       [Chorus: Taylor Swift]
       I think I've seen this film before
       And I didn't like the ending
       I'm not your problem anymore
       So who am I offending now?
-      You were my crown, now I'm in exile,
-       seein' you out I think I've seen this 
-      film before, So I'm leaving out the
+      You were my crown, now
+       I'm in exile,
+       seein' you out I think
+        I've seen this 
+      film before, So I'm 
+      leaving out the
        side door`,
       artist: "Taylor Swift",
     },
@@ -1465,7 +1514,102 @@ function App() {
       title: "Speaknow",
       url: speaknow,
       img: speaknowAlb,
-      lyrics: ``,
+      lyrics: `[Verse 1]
+      I am not the kind of girl
+      Who should be rudely bargin'
+       in on a white veil occasion
+      But you are not the kind of boy
+      Who should be marrying 
+      the wrong girl
+      I sneak in and see your friends
+      And her snotty little 
+      family all dressed in pastel
+      And she is yelling at a bridesmaid
+      Somewhere back inside a room
+      Wearin' a gown shaped like a pastry
+      
+      [Pre-Chorus]
+      This is surely not what
+       you thought it would be
+      I lose myself in a daydream
+      Where I stand and say
+      
+      [Chorus]
+      Don't say yes, run away now
+      I'll meet you when you're out
+      Of the church, at the back door
+      Don't wait or say a single vow
+      You need to hear me out
+      And they said, "Speak now"
+      
+      [Verse 2]
+      Fond gestures are exchanged
+      And the organ starts to play a
+       song that sounds like a death march
+      And I am hiding in the curtains
+      It seems that I was uninvited
+       by your lovely bride-to-be
+     
+      [Pre-Chorus]
+      She floats down the aisle
+       like a pageant queen
+      But I know you wish it was me
+      You wish it was me, don't you?
+      
+      [Chorus]
+      Don't say yes, run away now
+      I'll meet you when you're out
+      Of the church, at the back door
+      Don't wait or say a single vow
+      You need to hear me out
+      And they said, "Speak now"
+      Don't say yes, run awa
+       now (Run away now)
+      I'll meet you when you're out
+      Of the church, at the back door
+      Don't wait or say a single
+       vow (Say a single vow)
+      Your time is running out
+      And they said, "Speak now"
+      
+      [Post-Chorus]
+      Ooh (Run away now), la
+      Ooh (Say a single vow), ooh
+      
+      [Bridge]
+      I hear the preacher say
+      "Speak now or forever 
+      hold your peace"
+      There's the silence, 
+      there's my last chance
+      I stand up with shaky
+       hands, all eyes on me
+      Horrified looks from 
+      everyone in the room
+      But I'm only lookin' at you
+      [Verse 3]
+      I am not the kind of girl
+      Who should be rudely bargin'
+       in on a white veil occasion
+      But you are not the kind of boy
+      Who should be marrying
+       the wrong girl, haha
+      
+      [Chorus]
+      So, don't say yes, run away now
+      I'll meet you when you're out
+      Of the church, at the back door
+      Don't wait or say a single vow
+      You need to hear me out
+      They said, "Speak now"
+      And you say, "Let's run
+       away now (Run away now)
+      I'll meet you when I'm out
+      Of my tux, at the back door
+      Baby, I didn't say my
+       vows (Say a single vow)
+      So glad you were around
+      When they said, 'Speak now'"`,
       album: "Speaknow",
       artist: "Taylor Swift",
     },
@@ -1474,7 +1618,120 @@ function App() {
       title: "Enchanted",
       url: enchanted,
       img: speaknowAlb,
-      lyrics: ``,
+      lyrics: `[Verse 1]
+      There I was again tonight
+      Forcing laughter, faking 
+      smiles
+      Same old tired, lonely place
+      Walls of insincerity
+      Shifting eyes and vacancy
+      Vanished when I saw your
+       face
+      All I can say is it was
+       enchanting to meet you
+      
+      [Verse 2]
+      Your eyes whispered, 
+      "Have we met?"
+      Across the room, your
+       silhouette
+      Starts to make its way to me
+      The playful conversatio
+       starts
+      Counter all your quick
+       remarks
+      Like passing notes in secrecy
+      And it was enchanting 
+      to meet you
+      All I can say is I was 
+      enchanted to meet you
+      
+      [Chorus]
+      This night is sparklin', 
+      don't you let it go
+      I'm wonderstruck, blushin'
+       all the way home
+      I'll spеnd forever wonderin'
+       if you knеw
+      I was enchanted to meet you
+      
+      [Verse 3]
+      The lingering question kept
+       me up
+      2AM, who do you love?
+      I wonder 'til I'm wide awake
+      And now, I'm pacing back 
+      and forth
+      Wishing you were at my door
+      I'd open up and you
+       would say
+      "Hey, it was enchanting 
+      to meet you"
+      All I know is I was
+       enchanted to meet you
+      
+      [Chorus]
+      This night is sparklin',
+       don't you let it go
+      I'm wonderstruck, blushin'
+       all the way home
+      I'll spend forever 
+      wonderin' if you knew
+      This night is flawless,
+       don't you let it go
+      I'm wonderstruck, dancing
+       around all alone
+      I'll spend forever
+       wonderin' if you knew
+      I was enchanted to meet you
+      
+      [Bridge]
+      This is me praying that
+      This was the very first page
+      Not where the storyline 
+      ends
+      My thoughts will echo
+       your name
+      Until I see you again
+      These are the words 
+      I held back
+      As I was leaving too soon
+      I was enchanted to
+       meet you
+      Please, don't be in
+       love with someone else
+      Please, don't have
+       somebody waitin' on you
+      Please, don't be 
+      in love with someone else (Ooh)
+      Please, don't have 
+      somebody waitin' on you (Oh-oh)
+      
+      [Chorus]
+      This night is sparklin', 
+      don't you let it go
+      I'm wonderstruck, blushin'
+       all the way home
+      I'll spend forever 
+      wonderin' if you knew
+      This night is flawless 
+      (Please, don't be in love
+       with someone else)
+      Don't you let it go
+      I'm wonderstruck 
+      (Please, don't have
+       somebody waitin' on you)
+      Dancing around all alone
+      I'll spend forever 
+      (Please, don't be in 
+      love with someone else)
+      Wonderin' if you knew
+      I was enchanted to meet you
+      [Outro]
+      Please, don't be in
+       love with someone else
+      Please, don't have 
+      somebody waitin' on you`,
       album: "Speaknow",
       artist: "Taylor Swift",
     },
@@ -1483,7 +1740,113 @@ function App() {
       title: "You're losing me",
       url: losingme,
       img: midnights,
-      lyrics: ``,
+      lyrics: `[Verse 1]
+      You say, "I don't understand,
+      " and I say, "I know you don't"
+      We thought a cure would
+       come through in time,
+        now, I fear it won't
+      Remember lookin' at this 
+      room, we loved it 
+      'cause of the light
+      Now, I just sit in the
+       dark and wonder if it's time
+      
+      [Pre-Chorus]
+      Do I throw out everything
+       we built or keep it?
+      I'm getting tired 
+      even for a phoenix
+      Always risin' from the ashes
+      Mendin' all her gashes
+      You might just have
+      dealt the final blow
+      
+      [Chorus]
+      Stop, you're losin' me
+      Stop, you're losin' me
+      Stop, you're losin' me
+      I can't find a pulse
+      My heart won't start 
+      anymore for you
+      'Cause you're losin' me
+      
+      [Verse 2]
+      Every mornin', I glared 
+      at you with storms in my eyes
+      How can you say that you love
+       someone you can't tell is dyin'?
+      I sent you signals and 
+      bit my nails down to the quick
+      My face was gray, but 
+      you wouldn't admit that 
+      we were sick
+      
+      [Pre-Chorus]
+      And the air is thick 
+      with loss and indecision
+      I know my pain is
+       such an imposition
+      Now, you're runnin'
+       down the hallway
+      And you know what 
+      they all say
+      "You don't know what 
+      you got until it's gone"
+      
+      [Chorus]
+      Stop, you're losin' me
+      Stop, you're losin' me
+      Stop, you're losin' me
+      I can't find a pulse
+      My heart won't start
+       anymore for you
+      'Cause you're losin' me
+      'Cause you're losin' me
+      Stop (Stop) 'cause 
+      you're losin' me
+      
+      [Post-Chorus]
+      My heart won't start anymore
+      (Stop 'cause you're losin' me)
+      My heart won't start anymore
+      (Stop 'cause you're losin' me)
+      
+      [Bridge]
+      How long could we 
+      be a sad song
+      'Til we were too far 
+      gone to bring back to life?
+      I gave you all my best 
+      me's, my endless empathy
+      And all I did was bleed 
+      as I tried to be the 
+      bravest soldier
+      Fighting in only your 
+      army, frontlines,
+       don't you ignore me
+      I'm the best thing at 
+      this party (You're losin' me)
+      And I wouldn't marry me either
+      A pathological people pleaser
+      Who only wanted you to see her
+      And I'm fadin', thinkin'
+      "Do something, babe,
+       say something" (Say something)
+      "Lose something, babe,
+       risk something" 
+       (You're losin' me)
+      "Choose something, babe,
+       I got nothing"
+        (I got nothing)
+      "To believe, unless
+       you're choosin' me"
+      [Outro]
+      You're losin' me
+      Stop (Stop, stop), you're losin' me
+      Stop (Stop, stop), you're losin' me
+      I can't find a pulse
+      My heart won't start anymore`,
       album: "Midnights",
       artist: "Taylor Swift",
     },
@@ -1492,7 +1855,125 @@ function App() {
       title: "Snow at the beach",
       url: snowbeach,
       img: midnights,
-      lyrics: ``,
+      lyrics: `[Verse 1: Taylor Swift]
+      One night, a few moons ago
+      I saw flecks of what
+       could've been lights
+      But it might just 
+      have been you
+      Passing by unbeknownst 
+      to me
+      Life is emotionally abusive
+      And time can't stop me 
+      quite like you did
+      And my flight was awful,
+       thanks for asking
+      I'm unglued, thanks to you
+      
+      [Chorus: ]
+      And it's like snow at the beach
+      Weird, but fuckin' beautiful
+      Flying in a dream
+      Stars by the pocketful
+      You wanting me
+      Tonight feels impossible
+      But it's comin' down
+      No sound, it's all around
+      
+      [Post-Chorus: ]
+      Like snow on the beach
+      Like snow on the beach
+      Like snow on the beach
+      Like snow, ah
+     
+      [Verse 2: ]
+      This scene feels like 
+      what I once saw on a screen
+      I searched "aurora 
+      borealis green"
+      I've never seen someone
+       lit from within
+      Blurring out my periphery
+      My smile is like I
+       won a contest
+      And to hide that would
+       be so dishonest
+      And it's fine to fake
+       it 'til you make it
+      'Til you do, 'til it's true
+      
+      [Chorus:]
+      Now it's like snow 
+      at the beach
+      Weird, but fuckin' beautiful
+      Flying in a dream
+      Stars by the pocketful
+      You wanting me
+      Tonight feels impossible
+      But it's comin' down
+      No sound, it's all around
+      
+      [Post-Chorus: Taylor Swift,
+         Taylor Swift & Lana Del Rey]
+      Like snow on the beach
+      Like snow on the beach
+      Like snow on the beach
+      Like snow, ah
+
+      [Bridge: ]
+      I (I) can't (Can't) speak, 
+      afraid to jinx it
+      I (I) don't (Don't) 
+      even dare to wish it
+      But your eyes are flying
+       saucers from another planet
+      Now I'm all for you like Janet
+      Can this be a real thing? Can it?
+      
+      [Chorus: ]
+      Are we falling like 
+      snow at the beach? 
+      (Snow at the beach)
+      Weird, but fuckin' beautiful
+      Flying in a dream 
+      (Flying in a dream)
+      Stars by the pocketful
+      You wanting me 
+      (You wanting me)
+      Tonight feels impossible
+      But it's comin' down
+      No sound, it's all around
+      
+      [Post-Chorus:]
+      Like snow on the beach
+       (Snow on the beach)
+      Like snow on the beach 
+      (Flying in a dream)
+      Like snow on the beach
+       (You wanting me)
+      Like snow, ah
+      But it's comin' down
+      No sound, it's all around
+      
+      [Outro: Taylor Swift]
+      Like snow on the beach
+      (It's comin' down,
+       it's comin' down)
+      (It's comin' down,
+       it's comin' down)
+      Like snow on the beach
+      (It's comin' down,
+       it's comin' down)
+      (It's comin' down,
+       it's comin' down)
+      (It's comin' down, 
+      it's comin' down)
+      (It's comin' down, 
+      it's comin' down)
+      (It's comin' down, 
+      it's comin' down)
+      (It's comin' down, 
+      it's comin' down)`,
       album: "Midnights",
       artist: "Taylor Swift",
     },
@@ -1501,7 +1982,116 @@ function App() {
       title: "Long live",
       url: longlive,
       img: speaknowAlb,
-      lyrics: ``,
+      lyrics: `[Verse 1]
+      I said, "Remember this moment"
+      In the back of my mind
+      The time we stood 
+      with our shaking hands
+      The crowds in stands
+       went wild
+      We were the kings 
+      and the queens
+      And they read off 
+      our names
+      The night you danced
+       like you knew our lives
+      Would never be the same
+      You held your head like a hero
+      On a history book page
+      It was the end of a decade
+      But the start of an age
+      
+      [Chorus]
+      Long live the walls we
+       crashed through
+      How the kingdom lights 
+      shined just for me and you
+      I was screaming,
+       "Long live all the magic we made"
+      And bring on all the pretenders
+      One day, we will be remembered
+      
+      [Verse 2]
+      I said, "Remember this feeling"
+      I pass the pictures around
+      Of all the years that we
+       stood there on the sidelines
+      Wishing for right now
+      We are the kings and 
+      the queens
+      You traded your baseball
+       cap for a crown
+      When they gave us our trophies
+      And we held them up
+       for our town
+      And the cynics were outraged
+      Screaming, "This is absurd"
+      'Cause for a moment, a
+       band of thieves
+      In ripped up jeans got
+       to rule the world
+     
+      [Chorus]
+      Long live the walls
+       we crashed through
+      How the kingdom lights 
+      shined just for me and you
+      I was screaming,
+       "Long live all the magic we made"
+      And bring on all 
+      the pretenders, I'm not afraid
+      Long live all the
+       mountains we moved
+      I had the time of my life
+       fighting dragons with you
+      I was screaming, 
+      "Long live that 
+      look on your face"
+      And bring on all the pretenders
+      One day, we will be remembered
+      
+      [Bridge]
+      Hold on to spinning around
+      Confetti falls to the ground
+      May these memories
+       break our fall
+      Will you take a moment?
+       Promise me this
+      That you'll stand by me forever
+      But if, God forbid, 
+      fate should step in
+      And force us into a
+       goodbye
+      If you have children some day
+      When they point to
+       the pictures
+      Please, tell 'em my name
+      Tell 'em how the 
+      crowds went wild
+      Tell 'em how I hope 
+      they shine
+      Long live the walls we 
+      crashed through
+      I had the time of my 
+      life with you
+      [Chorus]
+      Long, long live the walls
+       we crashed through
+      How the kingdom lights
+       shined just for me and you
+      And I was screaming,
+       "Long live all the 
+       magic we made"
+      And bring on all the 
+      pretenders, I'm not afraid
+      Singing, "Long live 
+      all the mountains we moved"
+      I had the time of my 
+      life fighting dragons with you
+      And long, long live
+       that look on your face
+      And bring on all the pretenders
+      One day, we will be remembered`,
       album: "Speaknow",
       artist: "Taylor Swift",
     },
@@ -1604,6 +2194,105 @@ function App() {
       album: "Midnights",
       artist: "Taylor Swift",
     },
+    {
+      id: 36,
+      title: "Mastermind",
+      url: mastermind,
+      img: midnights,
+      lyrics: ``,
+      album: "Midnights",
+      artist: "Taylor Swift",
+    },
+    {
+      id: 37,
+      title: "Vigilante shit",
+      url: shit,
+      img: midnights,
+      lyrics: ``,
+      album: "Midnights",
+      artist: "Taylor Swift",
+    },
+    {
+      id: 38,
+      title: "Lavender Haze",
+      url: haze,
+      img: midnights,
+      lyrics: ``,
+      album: "Midnights",
+      artist: "Taylor Swift",
+    },
+    {
+      id: 39,
+      title: "I think he knows",
+      url: heknows,
+      img: loverAlbum,
+      lyrics: ``,
+      album: "Lover",
+      artist: "Taylor Swift",
+    },
+    {
+      id: 40,
+      title: "Miss Americana & the heartbreak prince",
+      url: americana,
+      img: loverAlbum,
+      lyrics: ``,
+      album: "Lover",
+      artist: "Taylor Swift",
+    },
+    {
+      id: 41,
+      title: "Sparks fly",
+      url: fly,
+      img: speaknowAlb,
+      lyrics: ``,
+      album: "Speaknow",
+      artist: "Taylor Swift",
+    },
+    {
+      id: 42,
+      title: "Back to december",
+      url: december,
+      img: speaknowAlb,
+      lyrics: ``,
+      album: "Speaknow",
+      artist: "Taylor Swift",
+    },
+    {
+      id: 43,
+      title: "Look what you made me do",
+      url: lwymmd,
+      img: reputation,
+      lyrics: ``,
+      album: "reputation",
+      artist: "Taylor Swift",
+    },
+    {
+      id: 44,
+      title: "Delicate",
+      url: delicate,
+      img: reputation,
+      lyrics: ``,
+      album: "reputation",
+      artist: "Taylor Swift",
+    },
+    {
+      id: 45,
+      title: "Call it what you want",
+      url: call,
+      img: reputation,
+      lyrics: ``,
+      album: "reputation",
+      artist: "Taylor Swift",
+    },
+    {
+      id: 46,
+      title: "Dress",
+      url: dress,
+      img: reputation,
+      lyrics: ``,
+      album: "reputation",
+      artist: "Taylor Swift",
+    },
   ];
   const [filteredMusic, setFilteredMusic] = useState(musicData);
   const audioRef = useRef(null);
@@ -1661,27 +2350,32 @@ function App() {
           "linear-gradient(90deg, rgba(236,169,212,1) 0%, rgba(139,194,228,1) 11%, rgba(193,185,222,1) 27%, rgba(202,192,217,1) 30%, rgba(255,236,185,1) 48%, rgba(193,185,222,1) 70%, rgba(254,170,194,1) 100%)",
       };
 
-      bgAppStyles = { background: `#eca9d4` };
+      // bgAppStyles = { background: `#eca9d4` };
     } else if (currentAlbum === "Fearless") {
       bgStyles = {
         background: ` rgb(91,60,32)`,
         background: ` linear-gradient(90deg, rgba(91,60,32,1) 0%, rgba(120,87,46,1) 51%, rgba(222,188,125,1) 100%)`,
       };
-      bgAppStyles = {
-        background: `#DEBC7D`,
-      };
+      // bgAppStyles = {
+      //   background: `#DEBC7D`,
+      // };
     } else if (currentAlbum === "Speaknow") {
       bgStyles = {
         background: ` rgb(71,42,80)`,
         background: `linear-gradient(90deg, rgba(71,42,80,1) 0%, rgba(141,89,141,1) 51%, rgba(134,78,136,1) 100%)`,
       };
-      bgAppStyles = {
-        background: `#864E88`,
-      };
+      // bgAppStyles = {
+      //   background: `#864E88`,
+      // };
     } else if (currentAlbum === "Midnights") {
       bgStyles = {
         background: `rgb(29,26,54)`,
         background: ` linear-gradient(90deg, rgba(29,26,54,1) 0%, rgba(74,80,95,1) 23%, rgba(115,94,93,1) 59%, rgba(119,82,88,1) 100%)`,
+      };
+    } else if (currentAlbum === "reputation") {
+      bgStyles = {
+        background: `rgb(16,16,16)`,
+        background: ` linear-gradient(90deg, rgba(16,16,16,1) 0%, rgba(73,73,73,1) 37%, rgba(108,108,108,1) 76%, rgba(192,192,192,1) 100%)`,
       };
     } else {
       bgAppStyles = {
