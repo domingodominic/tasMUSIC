@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/tasMUSIC/static/css/main.c01c57b0.css",
-    "main.js": "/tasMUSIC/static/js/main.e390dacc.js",
+    "main.js": "/tasMUSIC/static/js/main.d51f4d7f.js",
     "static/js/787.d525ff22.chunk.js": "/tasMUSIC/static/js/787.d525ff22.chunk.js",
     "static/media/enchantedAAC.aac": "/tasMUSIC/static/media/enchantedAAC.73f1ddd1251f7d80b9a6.aac",
+    "static/media/longliveAAC.aac": "/tasMUSIC/static/media/longliveAAC.abadb1280bae74604acf.aac",
     "static/media/bettyAAC.aac": "/tasMUSIC/static/media/bettyAAC.743211a0e3e2d222cd9f.aac",
     "static/media/epiphanyAAC.aac": "/tasMUSIC/static/media/epiphanyAAC.ccd56a70ebf74ee2ee56.aac",
     "static/media/exileAAC.aac": "/tasMUSIC/static/media/exileAAC.ab4154a54abe0fa7c1b8.aac",
@@ -16,14 +17,17 @@
     "static/media/cardiganAAC.aac": "/tasMUSIC/static/media/cardiganAAC.b08186a381b3dbf4fb53.aac",
     "static/media/fearlessAAC.aac": "/tasMUSIC/static/media/fearlessAAC.9831a2a750a59e81daaf.aac",
     "static/media/madwomanAAC.aac": "/tasMUSIC/static/media/madwomanAAC.9d2eb2e953d505e38376.aac",
+    "static/media/snowbeachAAC.aac": "/tasMUSIC/static/media/snowbeachAAC.61b2e1c86ad5ccc3584a.aac",
     "static/media/ThelastGreatAAC.aac": "/tasMUSIC/static/media/ThelastGreatAAC.9fab5867795de778a742.aac",
     "static/media/mirrorballaac.aac": "/tasMUSIC/static/media/mirrorballaac.fd7e97ed9eaca96d86d4.aac",
     "static/media/hoaxAAC.aac": "/tasMUSIC/static/media/hoaxAAC.94bd6808314965bef281.aac",
     "static/media/peaceAAC.aac": "/tasMUSIC/static/media/peaceAAC.cd3f403e87c3ee3ac42d.aac",
     "static/media/the1AAC.aac": "/tasMUSIC/static/media/the1AAC.31908d8811c3da134188.aac",
     "static/media/sevenAAC.aac": "/tasMUSIC/static/media/sevenAAC.22501a192c5a8603d9b8.aac",
+    "static/media/antiheroAAC.aac": "/tasMUSIC/static/media/antiheroAAC.1b00e461306df117f92d.aac",
     "static/media/thisismetryingAAC.aac": "/tasMUSIC/static/media/thisismetryingAAC.17c7dac4e5c138be41ad.aac",
     "static/media/illicitAAC.aac": "/tasMUSIC/static/media/illicitAAC.3c41e4e7fe508774e635.aac",
+    "static/media/cruelsummerAAC.aac": "/tasMUSIC/static/media/cruelsummerAAC.b5c4440d8212b21d2eea.aac",
     "static/media/forgotexistedAAC.aac": "/tasMUSIC/static/media/forgotexistedAAC.2d985c639bf2e04a6bce.aac",
     "static/media/folklore.jpg": "/tasMUSIC/static/media/folklore.a19dbcab90e1ffe837b8.jpg",
     "static/media/lover--album.jpg": "/tasMUSIC/static/media/lover--album.e5865e1aaaf1360a3088.jpg",
@@ -32,11 +36,11 @@
     "static/media/fearless-alb.jpg": "/tasMUSIC/static/media/fearless-alb.5cd3ee89e804e350e101.jpg",
     "index.html": "/tasMUSIC/index.html",
     "main.c01c57b0.css.map": "/tasMUSIC/static/css/main.c01c57b0.css.map",
-    "main.e390dacc.js.map": "/tasMUSIC/static/js/main.e390dacc.js.map",
+    "main.d51f4d7f.js.map": "/tasMUSIC/static/js/main.d51f4d7f.js.map",
     "787.d525ff22.chunk.js.map": "/tasMUSIC/static/js/787.d525ff22.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c01c57b0.css",
-    "static/js/main.e390dacc.js"
+    "static/js/main.d51f4d7f.js"
   ]
 }
