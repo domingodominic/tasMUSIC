@@ -13,6 +13,7 @@ code {
 }
 
 #range {
+  cursor: pointer;
   height: 4px;
   width: 80%;
   background: gray;
@@ -35,7 +36,7 @@ code {
 .musicList {
   position: fixed;
   transition: all 0.5s;
-  height: 90%;
+  height: 88%;
   z-index: 1;
   top: 0;
   right: 0px;

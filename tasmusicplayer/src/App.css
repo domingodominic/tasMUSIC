@@ -66,7 +66,7 @@
 .music--container {
   position: relative;
   width: 500px;
-  height: 80vh;
+  height: 90vh;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -76,7 +76,8 @@
   border-radius: 20px;
   display: block;
   margin: 0 auto;
-  margin-top: 20px;
+  cursor: pointer;
+  margin-top: 140px;
   transform-origin: right;
   box-shadow: 15px 20px 20px rgba(0, 0, 0, 0.3);
   transition: all 0.4s ease-in-out;
@@ -94,11 +95,13 @@
 .playAndPause i {
   font-size: 40px;
   color: white;
+  cursor: pointer;
 }
 .rewind,
 .forward {
   background: none;
   border: none;
+  cursor: pointer;
 }
 .forward:active {
   transform: scale(0.9);
@@ -137,7 +140,7 @@
   color: white;
 }
 .list--music {
-  margin-top: 40px;
+  margin-top: 100px;
   width: 100%;
   padding: 0;
   padding-bottom: 50px;
@@ -163,7 +166,7 @@
   height: 50px !important;
   border-radius: 2px;
   transition: all 0.5s;
-  margin-top: 0;
+  margin-top: 130px;
   right: 30% !important;
   margin-bottom: 10px;
   transform-origin: right;
@@ -228,10 +231,14 @@
 }
 .dash {
   position: absolute;
+  height: 10px;
+  z-index: 100;
   top: -10px;
+  cursor: pointer;
 }
 .dash i {
-  font-size: 55px;
+  font-size: 60px;
+  font-style: bold;
   color: gray;
 }
 .checkHeight {
@@ -242,4 +249,38 @@
   height: 100px;
 
   bottom: 0px !important;
+}
+
+/* for search */
+
+.music--header {
+  position: absolute;
+  display: flex;
+  width: 100%;
+  height: 55px;
+  margin-bottom: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.music--header h1 {
+  font-family: "Poppins", sans-serif;
+}
+
+.search {
+  position: relative;
+  display: flex;
+  width: 80%;
+  padding: 8px 10px;
+  gap: 1rem;
+  border-radius: 0.7rem;
+  background-color: white;
+}
+.search input[type="text"] {
+  border: none;
+  width: 100%;
+  background: transparent;
+}
+.search input[type="text"]:focus {
+  border: none;
+  outline: none;
 }

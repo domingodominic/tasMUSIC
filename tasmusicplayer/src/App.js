@@ -23,13 +23,30 @@ import fearlessAlb from "./img/fearless-alb.jpg";
 import fearless from "./musics/fearlessAAC.aac";
 import mine from "./musics/mine.mp3";
 import speaknowAlb from "./img/speaknow-alb.jpg";
+import speaknow from "./musics/speaknowAAC.aac";
+import enchanted from "./musics/enchantedAAC.aac";
+import losingme from "./musics/losingmeAAC.aac";
+import snowbeach from "./musics/snowbeachAAC.aac";
+import longlive from "./musics/longliveAAC.aac";
+import midnights from "./img/midnights.jpg";
+import antihero from "./musics/antiheroAAC.aac";
+import cruelsummer from "./musics/cruelsummerAAC.aac";
+import paperrings from "./musics/paperringsAAC.aac";
+import ownkid from "./musics/kid.aac";
+import maroon from "./musics/maroonAAC.aac";
+import labyrinth from "./musics/labyrinthAAC.aac";
+import bejeweled from "./musics/bejeweledAAC.aac";
+import daylight from "./musics/daylightAAC.aac";
+import nothing from "./musics/nothingAAC.aac";
+import paris from "./musics/parisAAC.aac";
+import karma from "./musics/karmaAAC.aac";
 function App() {
-  const [musicIndex, setMusicIndex] = useState(0);
-  const [isPlaying, setIsPlaying] = useState(false);
+  const [musicIndex, setMusicIndex] = useState(1);
+
+  const [isPlaying, setIsPlaying] = useState(true);
   const [currentTime, setCurrentTime] = useState(0);
   const [duration, setDuration] = useState(0);
   const [isImgToggle, setImgToggle] = useState(false);
-  const [imgUrl, setImgurl] = useState(folkloreImg);
 
   function formatTime(totalSeconds) {
     const hours = Math.floor(totalSeconds / 3600);
@@ -47,6 +64,7 @@ function App() {
 
   const musicData = [
     {
+      id: 1,
       title: "The 1",
       url: theOne,
       img: folkloreImg,
@@ -140,6 +158,7 @@ function App() {
       (Ooh)`,
     },
     {
+      id: 2,
       title: "Cardigan",
       url: cardigan,
       img: folkloreImg,
@@ -242,6 +261,7 @@ function App() {
       artist: "Taylor Swift",
     },
     {
+      id: 3,
       title: "The last great american dynasty",
       url: thelastamerican,
       img: folkloreImg,
@@ -328,6 +348,7 @@ function App() {
       artist: "Taylor Swift",
     },
     {
+      id: 4,
       title: "Exile",
       url: exile,
       img: folkloreImg,
@@ -372,6 +393,7 @@ function App() {
       artist: "Taylor Swift",
     },
     {
+      id: 5,
       title: "My tears ricochet",
       url: tearsRicochet,
       img: folkloreImg,
@@ -432,6 +454,7 @@ function App() {
       artist: "Taylor Swift",
     },
     {
+      id: 6,
       title: "Mirrorball",
       url: mirrorball,
       img: folkloreImg,
@@ -494,6 +517,7 @@ function App() {
       artist: "Taylor Swift",
     },
     {
+      id: 7,
       title: "Seven",
       url: seven,
       img: folkloreImg,
@@ -547,6 +571,7 @@ function App() {
       artist: "Taylor Swift",
     },
     {
+      id: 8,
       title: "August",
       url: august,
       img: folkloreImg,
@@ -625,6 +650,7 @@ function App() {
     },
 
     {
+      id: 9,
       title: "This is me trying",
       url: trying,
       img: folkloreImg,
@@ -692,6 +718,7 @@ function App() {
       artist: "Taylor Swift",
     },
     {
+      id: 10,
       title: "Illicit affairs",
       url: illicit,
       img: folkloreImg,
@@ -748,6 +775,7 @@ function App() {
       artist: "Taylor Swift",
     },
     {
+      id: 11,
       title: "Invisible string",
       url: invisibleString,
       img: folkloreImg,
@@ -825,6 +853,7 @@ function App() {
       artist: "Taylor Swift",
     },
     {
+      id: 12,
       title: "Mad woman",
       url: madwoman,
       img: folkloreImg,
@@ -905,6 +934,7 @@ function App() {
       artist: "Taylor Swift",
     },
     {
+      id: 13,
       title: "Epiphany",
       url: epiphany,
       img: folkloreImg,
@@ -952,6 +982,7 @@ function App() {
     },
     {
       title: "Betty",
+      id: 14,
       url: betty,
       img: folkloreImg,
       lyrics: `[Verse 1]
@@ -1045,6 +1076,7 @@ function App() {
       artist: "Taylor Swift",
     },
     {
+      id: 15,
       title: "Peace",
       url: peace,
       img: folkloreImg,
@@ -1107,6 +1139,7 @@ function App() {
     },
 
     {
+      id: 16,
       title: "Hoax",
       url: hoax,
       img: folkloreImg,
@@ -1164,6 +1197,7 @@ function App() {
       artist: "Taylor Swift",
     },
     {
+      id: 17,
       title: "I forgot that you existed",
       url: forgotExist,
       img: loverAlbum,
@@ -1246,6 +1280,7 @@ function App() {
       artist: "Taylor Swift",
     },
     {
+      id: 18,
       title: "Fearless",
       url: fearless,
       img: fearlessAlb,
@@ -1328,6 +1363,7 @@ function App() {
       artist: "Taylor Swift",
     },
     {
+      id: 19,
       title: "Mine",
       url: mine,
       img: speaknowAlb,
@@ -1424,8 +1460,152 @@ function App() {
       album: "Speaknow",
       artist: "Taylor Swift",
     },
+    {
+      id: 20,
+      title: "Speaknow",
+      url: speaknow,
+      img: speaknowAlb,
+      lyrics: ``,
+      album: "Speaknow",
+      artist: "Taylor Swift",
+    },
+    {
+      id: 21,
+      title: "Enchanted",
+      url: enchanted,
+      img: speaknowAlb,
+      lyrics: ``,
+      album: "Speaknow",
+      artist: "Taylor Swift",
+    },
+    {
+      id: 22,
+      title: "You're losing me",
+      url: losingme,
+      img: midnights,
+      lyrics: ``,
+      album: "Midnights",
+      artist: "Taylor Swift",
+    },
+    {
+      id: 23,
+      title: "Snow at the beach",
+      url: snowbeach,
+      img: midnights,
+      lyrics: ``,
+      album: "Midnights",
+      artist: "Taylor Swift",
+    },
+    {
+      id: 24,
+      title: "Long live",
+      url: longlive,
+      img: speaknowAlb,
+      lyrics: ``,
+      album: "Speaknow",
+      artist: "Taylor Swift",
+    },
+    {
+      id: 25,
+      title: "Anti Hero",
+      url: antihero,
+      img: midnights,
+      lyrics: ``,
+      album: "Midnights",
+      artist: "Taylor Swift",
+    },
+    {
+      id: 26,
+      title: "Cruel summer",
+      url: cruelsummer,
+      img: loverAlbum,
+      lyrics: ``,
+      album: "Lover",
+      artist: "Taylor Swift",
+    },
+    {
+      id: 27,
+      title: "Karma",
+      url: karma,
+      img: midnights,
+      lyrics: ``,
+      album: "Midnights",
+      artist: "Taylor Swift",
+    },
+    {
+      id: 28,
+      title: "Paper rings",
+      url: paperrings,
+      img: loverAlbum,
+      lyrics: ``,
+      album: "Lover",
+      artist: "Taylor Swift",
+    },
+    {
+      id: 29,
+      title: "You're on your own kid",
+      url: ownkid,
+      img: midnights,
+      lyrics: ``,
+      album: "Midnights",
+      artist: "Taylor Swift",
+    },
+    {
+      id: 30,
+      title: "Paris",
+      url: paris,
+      img: midnights,
+      lyrics: ``,
+      album: "Midnights",
+      artist: "Taylor Swift",
+    },
+    {
+      id: 31,
+      title: "Labyrinth",
+      url: labyrinth,
+      img: midnights,
+      lyrics: ``,
+      album: "Midnights",
+      artist: "Taylor Swift",
+    },
+    {
+      id: 32,
+      title: "Daylight",
+      url: daylight,
+      img: loverAlbum,
+      lyrics: ``,
+      album: "Lover",
+      artist: "Taylor Swift",
+    },
+    {
+      id: 33,
+      title: "Maroon",
+      url: maroon,
+      img: midnights,
+      lyrics: ``,
+      album: "Midnights",
+      artist: "Taylor Swift",
+    },
+    {
+      id: 34,
+      title: "Bejeweled",
+      url: bejeweled,
+      img: midnights,
+      lyrics: ``,
+      album: "Midnights",
+      artist: "Taylor Swift",
+    },
+    {
+      id: 35,
+      title: "Sweet nothing",
+      url: nothing,
+      img: midnights,
+      lyrics: ``,
+      album: "Midnights",
+      artist: "Taylor Swift",
+    },
   ];
-
+  const [filteredMusic, setFilteredMusic] = useState(musicData);
   const audioRef = useRef(null);
 
   const playPauseHandler = (e) => {
@@ -1442,14 +1622,14 @@ function App() {
   const nextSongHandler = (event) => {
     event.stopPropagation();
     setIsPlaying(true);
-    setMusicIndex((prevIndex) => (prevIndex + 1) % musicData.length);
+    setMusicIndex((prevIndex) => (prevIndex % musicData.length) + 1);
   };
 
   const prevSongHandler = (event) => {
     event.stopPropagation();
     setIsPlaying(true);
     setMusicIndex((prevIndex) =>
-      prevIndex === 0 ? musicData.length - 1 : prevIndex - 1
+      prevIndex === 1 ? musicData.length : prevIndex - 1
     );
   };
 
@@ -1471,7 +1651,8 @@ function App() {
   let bgStyles, bgAppStyles;
 
   function checkImgUrl() {
-    let currentAlbum = musicData[musicIndex].album;
+    let currentAlbum =
+      musicData.find((song) => song.id === musicIndex)?.album || "";
 
     if (currentAlbum === "Lover") {
       bgStyles = {
@@ -1497,6 +1678,11 @@ function App() {
       bgAppStyles = {
         background: `#864E88`,
       };
+    } else if (currentAlbum === "Midnights") {
+      bgStyles = {
+        background: `rgb(29,26,54)`,
+        background: ` linear-gradient(90deg, rgba(29,26,54,1) 0%, rgba(74,80,95,1) 23%, rgba(115,94,93,1) 59%, rgba(119,82,88,1) 100%)`,
+      };
     } else {
       bgAppStyles = {
         background: `lightgray`,
@@ -1521,13 +1707,6 @@ function App() {
 
   checkImgUrl();
   // let time = Math.floor(currentTime - audioRef.current.duration);
-
-  function inTimeState(inTime) {
-    // let inHours = Math.floor(time / 3600);
-    // let inMins = Math.floor(time % 3600) / 60;
-    // let inSecs = time % 60;
-    // let informattedTime = `${inMins}`;
-  }
 
   function bringdown() {
     let img = document.querySelector(".image");
@@ -1582,9 +1761,20 @@ function App() {
 
       let dash = document.querySelector(".dash");
       dash.style.opacity = "1";
-      dash.style.top = "30px";
+      dash.style.top = "90px";
     }
   }
+  //for search input
+  function searchIt(musicD, input) {
+    let filtered = musicD.filter((song) =>
+      song.title.toLowerCase().includes(input.toLowerCase())
+    );
+
+    if (filtered.length > 0) {
+      setFilteredMusic(filtered);
+    }
+  }
+
   return (
     <div>
       <div
@@ -1597,15 +1787,36 @@ function App() {
           zIndex: "-2",
         }}
       >
-        <h2 style={{ position: "absolute", textAlign: "center" }}>Songs</h2>
+        <div className="music--header">
+          {/* <h2
+            style={{
+              ...bgAppStyles,
+              textAlign: "center",
+            }}
+          >
+            Songs
+          </h2> */}
+          <div className="search">
+            <input
+              type="text"
+              placeholder="Search..."
+              id="search"
+              onChange={(e) => {
+                searchIt(musicData, e.target.value);
+              }}
+            />
+            <i class="bi bi-search"></i>
+          </div>
+        </div>
+
         <ul className="list--music">
-          {musicData.map((song, i) => (
-            <div>
-              <p>{i + 1}</p>
+          {filteredMusic.map((song) => (
+            <div className="music--item" key={song.id}>
+              <p>{song.id}</p>
               <li
                 className="list--active"
                 onClick={() => {
-                  setMusicIndex(i);
+                  setMusicIndex(song.id);
                   setIsPlaying(true);
                 }}
               >
@@ -1628,11 +1839,17 @@ function App() {
             style={{
               width: "320px",
             }}
-            src={musicData[musicIndex].img}
-            alt={musicData[musicIndex].album + " Album"}
+            src={musicData.find((song) => song.id === musicIndex)?.img || ""}
+            alt={
+              musicData.find((song) => song.album === musicIndex)?.album +
+              " Album"
+            }
           />
           <p className="lyrics">
-            <pre className="pre--lyrics"> {musicData[musicIndex].lyrics}</pre>
+            <pre className="pre--lyrics">
+              {" "}
+              {musicData.find((song) => song.id === musicIndex)?.lyrics || ""}
+            </pre>
           </p>
           <h5
             className="title"
@@ -1642,9 +1859,11 @@ function App() {
               marginTop: "30px",
             }}
           >
-            {musicData[musicIndex].title}
+            {musicData.find((song) => song.id === musicIndex)?.title || ""}
           </h5>
-          <p className="artist">{musicData[musicIndex].artist}</p>
+          <p className="artist">
+            {musicData.find((song) => song.id === musicIndex)?.artist || ""}
+          </p>
           <input
             type="range"
             value={currentTime}
@@ -1667,7 +1886,7 @@ function App() {
             >
               {onTime}
             </p>
-            <div className="for--volume">
+            {/* <div className="for--volume">
               <input
                 className="volume"
                 style={{ height: "3px" }}
@@ -1689,7 +1908,7 @@ function App() {
                   vol.classList.toggle("vol--hide");
                 }}
               ></i>
-            </div>
+            </div> */}
             <div className="buttons">
               <button className="rewind" onClick={prevSongHandler}>
                 <i class="bi bi-rewind-fill"></i>
@@ -1708,9 +1927,11 @@ function App() {
             </div>
             <audio
               className="audio"
+              onEnded={nextSongHandler}
+              id="audio"
               style={{ display: "none" }}
               ref={audioRef}
-              src={musicData[musicIndex].url}
+              src={musicData.find((song) => song.id === musicIndex)?.url || ""}
               controls
               autoPlay
               preload="auto"
