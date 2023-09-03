@@ -268,7 +268,7 @@
 }
 
 .search {
-  position: relative;
+  position: fixed;
   display: flex;
   width: 80%;
   padding: 8px 10px;
