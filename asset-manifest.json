@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/tasMUSIC/static/css/main.a5b23ed7.css",
-    "main.js": "/tasMUSIC/static/js/main.695a7498.js",
+    "main.css": "/tasMUSIC/static/css/main.9524ba36.css",
+    "main.js": "/tasMUSIC/static/js/main.7bd96f3d.js",
     "static/js/787.d525ff22.chunk.js": "/tasMUSIC/static/js/787.d525ff22.chunk.js",
     "static/media/enchantedAAC.aac": "/tasMUSIC/static/media/enchantedAAC.73f1ddd1251f7d80b9a6.aac",
     "static/media/longliveAAC.aac": "/tasMUSIC/static/media/longliveAAC.abadb1280bae74604acf.aac",
@@ -56,12 +56,12 @@
     "static/media/midnights.jpg": "/tasMUSIC/static/media/midnights.cb3e887b2f698d1a40cf.jpg",
     "static/media/fearless-alb.jpg": "/tasMUSIC/static/media/fearless-alb.5cd3ee89e804e350e101.jpg",
     "index.html": "/tasMUSIC/index.html",
-    "main.a5b23ed7.css.map": "/tasMUSIC/static/css/main.a5b23ed7.css.map",
-    "main.695a7498.js.map": "/tasMUSIC/static/js/main.695a7498.js.map",
+    "main.9524ba36.css.map": "/tasMUSIC/static/css/main.9524ba36.css.map",
+    "main.7bd96f3d.js.map": "/tasMUSIC/static/js/main.7bd96f3d.js.map",
     "787.d525ff22.chunk.js.map": "/tasMUSIC/static/js/787.d525ff22.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a5b23ed7.css",
-    "static/js/main.695a7498.js"
+    "static/css/main.9524ba36.css",
+    "static/js/main.7bd96f3d.js"
   ]
 }
