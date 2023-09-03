@@ -51,6 +51,7 @@ code {
 }
 .list--active {
   width: 100%;
+  cursor: pointer;
 }
 .showImg {
   position: absolute;
