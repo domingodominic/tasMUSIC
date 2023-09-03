@@ -64,6 +64,8 @@ function MusicPlayer() {
     );
   };
 
+  window.addEventListener("scroll", () => {});
+
   useEffect(() => {
     audioRef.current.onloadedmetadata = () => {
       setDuration(audioRef.current.duration);
